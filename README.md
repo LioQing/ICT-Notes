@@ -1,11 +1,11 @@
 # DSE ICT Notes
 ## Content
 
-* Software Development
-    * Programming Languages Generations
-    * Programming Paradigm
-    * System
-    * Phases of SDLC and Project Initiation
+* [Software Development](#software-development)
+    * [Programming Languages Generations](#programming-languages-generations)
+    * [Programming Paradigm](#programming-paradigm)
+    * [System] (#system)
+    * [Phases of SDLC and Project Initiation] (#phases-of-sdlc-and-project-initiation)
         * System Analysis
         * System Design
         * System Implementation
@@ -13,7 +13,7 @@
 
 # Software Development
 
-## Programming Languages
+## Programming Languages Generations
 ### Generation 
 Name: X Generation Language = XGL (X is a number)  
 
@@ -117,8 +117,6 @@ _Revision with examples is better!_
 _Use the following _besttest_ examples from the almighty Comp Soc!_  
 _https://github.com/spc-comp-soc/spc-cs-db_
 
-
-## System  
 Definition of system:  
 a system of interacting elements that work as a whole to accomplish specific tasks or functions  
 E.g. alveolar cells (cells) => air sac/ alveoli (tissues) => lung (organ) => respiratory system (system) => respirate (function)  
@@ -152,6 +150,7 @@ A system that comprises people, machines, and/or methods organized to collect, p
 
 Made up of elements, defined with a clear boundary, equipped with interface    
 
+## System
 Characteristics:  
 - Has its users  
 - Has its purpose and some functions to offer  
