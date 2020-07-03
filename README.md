@@ -1,15 +1,16 @@
 # DSE ICT Notes
 ## Content
 
-* [Software Development](#software-development)
-    * [Programming Languages Generations](#programming-languages-generations)
-    * [Programming Paradigm](#programming-paradigm)
-    * [System] (#system)
-    * [Phases of SDLC and Project Initiation] (#phases-of-sdlc-and-project-initiation)
-        * System Analysis
-        * System Design
-        * System Implementation
-        * System Conversion and Maintenance
+- [Software Development](#software-development)
+    - [Programming Languages Generations](#programming-languages-generations)
+    - [Programming Paradigm](#programming-paradigm)
+    - [System](#system)
+    - [Phases of SDLC and Project Initiation](#phases-of-sdlc-and-project-initiation)
+        - [System Analysis](#system-analysis)
+        - [System Design](#system-design)
+        - [System Implementation](#system-implementation)
+        - [System Conversion](#system-conversion)
+        - [System Maintenance](#system-maintenance)
 
 # Software Development
 
