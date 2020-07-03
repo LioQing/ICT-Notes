@@ -6,11 +6,11 @@
     - [Programming Paradigm](#programming-paradigm)
     - [System](#system)
     - [Phases of SDLC and Project Initiation](#phases-of-sdlc-and-project-initiation)
-        - [System Analysis](#system-analysis)
-        - [System Design](#system-design)
-        - [System Implementation](#system-implementation)
-        - [System Conversion](#system-conversion)
-        - [System Maintenance](#system-maintenance)
+        - [Systems Analysis](#systems-analysis)
+        - [Systems Design](#systems-design)
+        - [Systems Implementation](#systems-implementation)
+        - [Systems Conversion](#systems-conversion)
+        - [Systems Maintenance](#systems-maintenance)
 
 # Software Development
 
@@ -204,7 +204,7 @@ Solutions:
 - In-house team => in-house development
 - Hire a service provider => outsourcing
 
-## Systems Analysis
+### Systems Analysis
 
 #### Identifying users’ requirements  
 Objective:  
@@ -272,7 +272,7 @@ Write requirement specifications:
 - Define the User Interface  
 - More…  
 
-## Systems Design  
+### Systems Design  
 Suitable data structures and algorithms are used for delivering functions for the program  
 
 _**User Interface**_  
@@ -365,7 +365,7 @@ _Gantt chart_
 Definition: a type of bar chart that illustrates a project schedule  
 Software tools: GanttProject  
 
-## Systems Implementation  
+### Systems Implementation  
 Phases:  
 - Program coding => realization and actualization of the abstract models  
 - System testing => identify errors and inadequacies  
@@ -390,7 +390,7 @@ Content:
 - Expected result  
 - Actual result  
 
-## Systems Conversion  
+### Systems Conversion  
 
 Types of strategies:  
 - Direct cutover conversion  
@@ -425,7 +425,7 @@ Types of strategies:
         - Pilot site’s successful operation does not guarantee other sites’ operation  
         - A considerable amount of time to install in all sites  
 
-## Systems maintenance  
+### Systems maintenance  
 Partly definition: on-going support  
 Include: maintaining, upgrading, training  
 
@@ -446,7 +446,7 @@ Training methods:
 - One-to-one coaching  
 - Computer-based training (CBT)  
 
-## Systems Documentation  
+### Systems Documentation  
 Objective: to help new personal to learn the system  
 It is a on-going process throughout SDLC  
 
