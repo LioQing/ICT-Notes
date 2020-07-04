@@ -11,3 +11,10 @@
         - [Systems Implementation](https://github.com/LioQing/ICT-Notes/blob/master/Software%20Development.md#systems-implementation)
         - [Systems Conversion](https://github.com/LioQing/ICT-Notes/blob/master/Software%20Development.md#systems-conversion)
         - [Systems Maintenance](https://github.com/LioQing/ICT-Notes/blob/master/Software%20Development.md#systems-maintenance)
+
+- [Computer System Fundamentals]()
+    - [The System Unit of a Computer System]()
+    - [Input and Output Devices]()
+    - [Secondary Storage Devices]()
+    - [System Software and Application Software]()
+    - [Computer Systems]()
