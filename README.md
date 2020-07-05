@@ -13,7 +13,7 @@
         - [Systems Maintenance](https://github.com/LioQing/ICT-Notes/blob/master/Software%20Development.md#systems-maintenance)
 
 - [Computer System Fundamentals](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System%20Fundamentals.md)
-    - [The System Unit of a Computer System](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System%20Fundamentals.md#the-components-of-a-computer)
+    - [The System Unit of a Computer System](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System%20Fundamentals.md#the-system-unit-of-a-computer-system)
     - [Input and Output Devices]()
     - [Secondary Storage Devices]()
     - [System Software and Application Software]()

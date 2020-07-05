@@ -1,5 +1,8 @@
 # Computer System Fundamentals
 
+## The System Unit of a Computer System
+This chapter talks about what and how main components of a computer there are and works
+
 ## The Components of a Computer
 Main components:
 - Motherboard/Main board
@@ -139,3 +142,93 @@ Variance:
 High-speed memory  
 Stores recently used data and instructions in CPU  
 Facilitate usage of requently used data and instructions  
+
+## Input and Output Devices
+This chapter talks about devices that are connected to the computer for input and output purpose
+
+## Input Devices
+Allow user to enter data into a computer and convert the data into a computer-readable form
+
+### Keyboards
+Allow user to enter data by pressing keys  
+Converts keystrokes into corresponding eletrical signal for computer to read  
+
+### Pointing Devices
+Allow user to control a cursor/pointer on a graphical user interface (GUI) and trigger action  
+
+**_Mouse (Plural: Mice)_**  
+Multidirectional mechanism to register its motion => control pointer  
+- Mechanical mouse - has a ball on its underside, track the direction of the ball's movement
+- Optical mouse - has an optical sensor to detect its movement more accurately
+- Buttons on top
+
+**_Trackball_**  
+Roll the ball with finger to control the pointer
+- The base remain stationary
+- Buttons next to the ball
+
+**_Touchpad_**  
+Drag finger on the touch-sensitive plate to move the pointer
+- Usually found on notebook computer
+- Tapping the pad same as clicking a button on a mouse
+
+**_Trackpoint_**  
+Push the pressure-sensitive stick for moving the pointer in the direction it is pushed  
+- Usually found on notebook computer
+
+**_Joystick_**  
+Move the vertical lever to control the pointer
+- Designed for playing computer games
+- Trigger buttons
+
+**_Touch Screen_**  
+Use finger or stylus touches by pressing and dragging icons or figures on a screen and the touch-sensitive layer sends an electical signal to the computer to move the pointer and perform action
+- Used in informations kiosk
+- Used in smart phone
+- Used in handheld game consoles
+- Used in notebook computer
+
+**_Digitizing Tablet_**  
+The tablet detect the movement and pressure of a pen-like stylus and convert it into electrical signal  
+- Allow user to draw and sketch directly
+- Widely used in graphic design and engineering
+
+**_Handwriting Board_**  
+Working mechanism similar to digitizing tablet with a pressure-sensitive board and a pen-like stylus
+- Designed for Chinese character input
+- Must work with character recognition software
+
+### Scanner
+Projects the light onto an object (paper, slide), capture the reflected light and interpret the pattern and colours  
+Factors for its quality: 
+- Resolution - the sharpness of the picture - measured in dots per inch (dpi)
+- Colour depth/bit depth - amount of colours to represent each dot
+- Accuracy - the image's likeness, in terms of colour and shape to original object
+
+*Can be used with _optical character recognition (OCR) software_ to convert text into editable file
+
+### Optical Reader
+Read predetermined characters, marks, or codes and translate into digital data for computer to read
+
+Bar Code Reader
+- Increase the accuracy and efficiency of data entry
+- Process is done instantly and accurately
+- Commonely used in libraries on all books
+
+Optical Mark Reader
+- Used with optical mark recognition (OMR) software
+- Commonly used for multiple choice answer sheet, questionnaires, lottery tickets, etc.
+
+### Microphone
+Record sounds as eletrical signals to convert into sound
+- Connected to sound card
+- Can be used with speech recognition software
+
+### Digital Camera and Digiti Video Camera (DC)
+Use light-sensitive processor to capture scense to turn them into digital images
+- Image quality depends on compression ratio, file format, resolution
+- Usually has a screen to make the scene immediately be viewable to the user
+- Special type of DC is web cam - connected to the computer
+- Smart phones have built-in cameras for photo taking and video recording
+
+
