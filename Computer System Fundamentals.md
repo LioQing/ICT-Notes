@@ -292,3 +292,82 @@ Classification:
 - Liquid crystal display (LCD) projector
 - Digital light process (DLP) projector
 
+## Daily Application
+- Point-of-sale (POS) Terminals 
+- Cheque Deposit Machine
+- Small Office Home Office (SOHO)
+- Conference Room
+
+## Secondary Storage Devices
+Also called backing storage
+- store data, operating system, application software
+- non-volatile
+
+## The Speed of a Secondary Storage Device
+- Access time  
+    - Average time taken to search and read the required data
+    - Measured in millisecond (ms)
+- Data transfer rate
+    - The amound of data can be transferred between main memory and a storage device per second
+    - Measured in megabyte per second (MBps)
+
+## Storage Capacity
+The maximimum amount of data can be stored in a storage medium  
+Units in ascending order:  
+(increasing with 1024 of the previous unit)
+- Byte - B
+- Kilobyte - KB
+- Megabyte - MB
+- Gigabyte - GB
+- Terabyte - TB
+- Petabyte - PB
+
+## Categories of Storage Devices
+Categories:
+- Magnetic storage devices
+- Optical storage devices
+- Others (e.g. memory cards, USB flash drives)
+
+Parameters:
+- Price - price per volume
+- Capacity - storage capacity
+- Speed - access time and data transfer rate
+- Lifespan - rewritability
+- Durability - physical durability
+- Portability - portability
+- Popularity - popularity as of 2020
+- Usage - common usage
+
+## Magnetic Storage Devices
+- Floppy disks
+    - Price - cheap
+    - Capacity - very low (<= 1.44MB)
+    - Speed - slow
+    - Lifespan - short
+    - Durability - weak
+    - Portability - high
+    - Popularity - non
+    - Usage - replaced by USB flash drives
+- Hard disks
+    - Price - medium
+    - Capacity - very large (~2TB) (still improving nowadays)
+    - Speed - medium
+    - Lifespan - long
+    - Durability - medium
+    - Portability - low
+    - Popularity - very popular
+    - Usage - computer storage
+- Magnetic tape
+    - Price - cheapest
+    - Capacity - large (varies, up to 170 TB)
+    - Speed - slow
+    - Lifespan - very long
+    - Durability - low
+    - Portability - medium
+    - Popularity - medium (mainly in businesses)
+    - Usage - backups
+
+## Optical Storage Devices
+- Compact Disc Read-Only Memory (CD-ROM)
+- Digital Versatile Disc (DVD)
+- HD DVD and Blue-ray Disc
