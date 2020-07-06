@@ -351,7 +351,7 @@ Parameters:
 - Hard disks
     - Price - medium
     - Capacity - very large (~2TB) (still improving nowadays)
-    - Speed - medium
+    - Speed - fast
     - Lifespan - long
     - Durability - medium
     - Portability - low
@@ -359,7 +359,7 @@ Parameters:
     - Usage - computer storage
 - Magnetic tape
     - Price - cheapest
-    - Capacity - large (varies, up to 170 TB)
+    - Capacity - very large (varies, up to 170 TB)
     - Speed - slow
     - Lifespan - very long
     - Durability - low
@@ -369,5 +369,38 @@ Parameters:
 
 ## Optical Storage Devices
 - Compact Disc Read-Only Memory (CD-ROM)
+    - Price - medium
+    - Capacity - low (up to 750MB)
+    - Speed - very slow
+    - Lifespan -
+    - Durability -
+    - Portability -
+    - Popularity -
+    - Usage - audio or program files
 - Digital Versatile Disc (DVD)
-- HD DVD and Blue-ray Disc
+    - Price - medium
+    - Capacity - low (4.7GB for single layer, 8.5GB for double)
+    - Speed - slow
+    - Lifespan -
+    - Durability -
+    - Portability -
+    - Popularity -
+    - Usage - video or substantial amount of program files
+- HD DVD and Blu-ray Disc
+    - Price - 
+    - Capacity -
+    - Speed - medium
+    - Lifespan -
+    - Durability -
+    - Portability -
+    - Popularity -
+    - Usage - 
+- Solid State Drive (SSD)
+    - Price - 
+    - Capacity -
+    - Speed - medium
+    - Lifespan -
+    - Durability -
+    - Portability -
+    - Popularity -
+    - Usage - 
