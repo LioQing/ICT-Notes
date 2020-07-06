@@ -95,8 +95,9 @@ More detailed sub-cycle:
 1. Fetch instruction
 2. Decode instruction
 3. Fetch operands
-4. Execute instrucion
+4. Execute instruction
 5. Store result
+6. Check interruption
 
 **_Interrpt Sub-cycle_**  
 After each execution of instruction, CPU check any interruption.  
@@ -231,4 +232,63 @@ Use light-sensitive processor to capture scense to turn them into digital images
 - Special type of DC is web cam - connected to the computer
 - Smart phones have built-in cameras for photo taking and video recording
 
+## Output Devices
+Hardwares that translate computer processes and information into forms that human can comprehend
+
+### Visual Display Unit (VDU) && Monitor
+View computers output on a screen
+
+Classification:
+- Cathode ray tube (CRT) monitor
+- Liquid crystal display (LCD) monitor  
+
+Quality determined by:
+- Resolution - number of pixels a monitor can display
+- Dot pitch - vertical distance between each pixels on a screen
+- Contrast ratio - the difference in light intensity between the brightest white and darkest black
+- Refresh rate - the number of times the screen refresh per second (Hz)
+
+### Speakers
+Convert audio signals of a computer into sounds.  
+Connected to sound card which convert digital audio signal into analogue signal for output
+
+### Printers
+
+**_Dot-matrix Printer_**  
+- Ideal for printing multi-part forms
+- Low printing cost
+
+**_Inkjet Printers_**  
+- Cheaper than laser
+- Use cartridge 
+- Expensive printing cost
+
+**_Laser Printers_**  
+- High resolution at high speed
+- Medium printing cost
+
+**_Thermal Printers_**
+- Commonly used in point-of-sale
+- Use thermal paper to heat to turn black
+- Black and white
+
+**_Plotter_**
+- High-quality
+- Large-format printouts
+
+### Multifunction Printers
+Includes a variety of functions:  
+- a printer
+- a scanner
+- a photocopier
+- a fax machine
+- a telephone
+- suitable for small office home office (SOHO)
+
+### Video Projectors  
+Project the computer display onto a large screen by high light intensity light bulbs and a set of optical lens  
+
+Classification: 
+- Liquid crystal display (LCD) projector
+- Digital light process (DLP) projector
 
