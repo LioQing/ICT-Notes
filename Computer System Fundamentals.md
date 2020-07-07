@@ -396,11 +396,55 @@ Parameters:
     - Popularity -
     - Usage - 
 - Solid State Drive (SSD)
-    - Price - 
+    - Price - high
     - Capacity -
-    - Speed - medium
-    - Lifespan -
-    - Durability -
+    - Speed - very fast
+    - Lifespan - long
+    - Durability - high
     - Portability -
-    - Popularity -
-    - Usage - 
+    - Popularity - very popular
+    - Usage - computer storage (small storage)
+
+## Others
+- Magneto-optical (MO) Disks
+    - Price - 
+    - Capacity - medium 
+    - Speed - 
+    - Lifespan - 
+    - Durability - 
+    - Portability -
+    - Popularity - 
+    - Usage - replaced by DVD
+- Memory Cards
+    - Price - 
+    - Capacity - high (from a few MB up to 64GB)
+    - Speed - 
+    - Lifespan - 
+    - Durability - 
+    - Portability -
+    - Popularity - 
+    - Usage - mobile devices (smart phone, portable game console, digital camera, notebook computer)
+- USB Flash Drives
+    - Price - 
+    - Capacity - high (about 2GB - 128GB)
+    - Speed - 
+    - Lifespan - 
+    - Durability - 
+    - Portability -
+    - Popularity - very popular
+    - Usage - as portable storage device
+
+## Network Storage
+Compared to local hard drives:
+- Pros
+    - facilitate sharing of information
+    - facilitate storage management such as backups
+- Cons
+    - requires a network connection
+
+Forms:
+- a storage device directly attached to a file server in a network
+- a storage system connected to a network, network-attached storage (NAS) and storage area network (SAN)
+- remote computer for the storage, such as Internet hard drives (e.g. Google Drive)
+
+## System Software and Application Software
