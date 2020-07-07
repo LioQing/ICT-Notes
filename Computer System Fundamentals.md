@@ -611,7 +611,7 @@ As a tool to facilitate the learning process of users
     - Animated Beginning Phonics 1.0
 
 ## Computer Systems
-***Classification***
+### Classification of Computers
 - Personal Computers
     - Desktop Computers
         - Workstations
@@ -628,7 +628,7 @@ Comparison between desktop computers and notebook computers:
 Ability of extension | Higher | Lower
 Cost (with similar specs) | Lower | Higher
 Portability | Non | High
-Power consumption | High | Low
+Power consumption | Higher | Lower
 
 Almost every aspects of a computer:  
 personal computer < mainframe computer < supercomputer
@@ -646,4 +646,7 @@ personal computer < mainframe computer < supercomputer
     - Tailored program for scientific research
     - Weather forecasting
     - Military operation controls
+
+### Characteristics of Computer Systems
+Classified by modes of operation, the number of users, the ways of organization of networked computers  
 
