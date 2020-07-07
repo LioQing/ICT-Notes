@@ -650,3 +650,70 @@ personal computer < mainframe computer < supercomputer
 ### Characteristics of Computer Systems
 Classified by modes of operation, the number of users, the ways of organization of networked computers  
 
+***Single-user Systems and Multi-user Systems***  
+Single-user system is self explanatory  
+Multi-user system the request of one user at a time  
+
+Time sharing:  
+Multi-user system switches the process between multiple users, but the user won't notice.
+
+Examples:
+- Online shops
+- Portals
+- Online game web sites
+
+***Batch Processing Systems***  
+Executes batch jobs at a scheduled automatically time without human interaction  
+
+- Computer resources can be fully utilized
+- The idling time of waiting user data entry is minimized
+- Time consuming jobs can be scheduled to non-peak hours (e.g. long printing jobs, file backup)
+
+Exmaples: 
+- Payroll printing system
+- School report printing system
+- Scheduled system backup
+
+***Real-time Systems***  
+Process data immediately after it has been entered  
+
+- Down time should be minimized
+- Do not require high-end computers
+- Require large memory and secondary storage capacity
+- Set-up and running cost is high
+
+Examples:
+- Automatic teller machines (ATM)
+- Computer-aided menufacturing
+- Video conference systems
+- Medical systems for image-guided surgery
+- Aerospace systems
+- Military defence systems
+
+***Online Interactive Systems***  
+A network of computer systems or a computer server connected to the Internet, responds to incoming request at designated time frames
+
+Exmaple:
+- Online shop
+
+***Parallel Processing Systems***  
+Make use of multiple CPUs to run multiple processes at the same time  
+
+- To increase speed of data processing
+- Consists of a number of CPUs
+- Reduce processing time by reducing program instructions among multiple processes
+- Run miltiple tasks simultaneously
+- Run a single job consisting of many parallel process
+- Run a process with a high degree of pipelining or make use of several ALU simultaneously
+- Not all processes can make full use of parallel computers
+
+***Distributed Processing Systems***
+A Collection of computers interconnected by a high-speednetwork to perform a task concurrently
+
+- Assigning small task from a big task into idle computer in the network
+- Resources can be managed more efficiently
+- Provide better computational performance than a single computer in the network
+- More fault tolerant than a single powerful computer
+- More cost effective than a single powerful computer
+- Scalable
+- Network requirement is considerably a problem with very high amount of computers in the network
