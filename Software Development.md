@@ -273,13 +273,13 @@ Six principles:
 - Minimize user effort  
 
 Type of user interface:  
-- _Command-driven interface_  
+- _Command-driven interface (CLI)_
     - Interact via text terminal  
     - User has to remember all commands => difficult to use  
 - _Menu-driven interface_  
     - Interact through a list of choices  
     - No need to remember commands => more user friendly than command  
-- _Graphical user interface_  
+- _Graphical user interface (GUI)_  
     - Interact through graphical icons  
     - Very common  
     - A pointing device can be used  

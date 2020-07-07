@@ -448,3 +448,74 @@ Forms:
 - remote computer for the storage, such as Internet hard drives (e.g. Google Drive)
 
 ## System Software and Application Software
+
+## System Software
+- Operating system - manage resources and other application softwares can run on it
+- Utility program - perform security tasks, data protection and resource optimization
+- Driver program - allow communication between hardware devices and the computer system
+
+**_Features_**
+- single-user <=> multi-user
+- single-tasking <=> multi-tasking
+- multi-processing
+
+## Operating Systems
+
+Operating system's functions:
+- device configuration
+- memory management
+- interface platform
+- file management
+- network communication management
+
+Categories:
+- Network operating system
+    - Run on network servers that centralize storage, communication channels, peripheral devices, sharing services, etc.
+    - E.g. UNIX, Microsoft Windows NT, Microsoft Windows Server 2008, Linux
+- Desktop operating system
+    - Run on standalone desktop and notebook computers
+    - High hardware expandability
+    - High software compatibility
+    - E.g. DOS, Microsoft Windows XP/Vista/7/8/10, Mac OS X
+- Mobile operating system
+    - Run on personal digital assistants (PDAs), smart phone, wireless communication devices, small computing devices
+    - E.g. Palm OS, Microsoft Windows Mobile, Android, iOS
+
+Comparison table of various common OSes:  
+</empty> | DOS | Microsoft Windows | Mac OS | UNIX | Linux | Palm OS/Microsoft Windows Mobile/Android/iOS
+--- | --- | --- | --- | --- | --- | ---
+Number of users | Single-user | Desktop OS: single-user; Network OS: multi-user | Signel-user | Multi-user | Multi-user | Single-user
+Single/multi-tasking | Single-tasking | Multi-tasking | Multi-tasking | Multi-tasking | Multi-tasking | Multi-tasking
+User interface | CLI | GUI | GUI | CLI & GUI | CLI & GUI | GUI
+Category | Desktop OS | Desktop OS/Network OS | Desktop OS | Network OS | Network OS | Mobile OS  
+
+## Utility Program
+- backup utility
+- data recovery utility
+- file manager
+- anti-virus software
+- program uninstaller
+- file comperssion utility
+- disk scanning program
+- disk refragmenter
+- system monitoring software
+- more...
+
+## Driver Programs
+Allow some peripheral devices to communicate with the computer
+Examples of peripheral devices:
+- printer
+- scanner
+- external modem
+
+## Application Software
+Help user to perform specific tasks  
+Cannot run on computer without an operating system
+Classification:
+- productivity software
+- communication software
+- multimedia software
+- entertainment software
+- education software
+
+## Productivity Software
