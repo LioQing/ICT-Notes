@@ -133,11 +133,11 @@ Program development
 ### Linkers and Loaders
 Object code contains reference to external libraries.  
 Linker is required to build a fully executable code from object code.  
-Ready-to-use libraries are called library routines.  
+Ready-to-use libraries are called _library routines_.  
 
 ***Dynamic Link Libraries (DLL)***  
 DLL are not copied into the executable code.  
-They are located from the disk, and mapped into the memory space of the program during run-time.  
+They are located from the disk, and mapped into the memory space of the program during run-time by _loader_.  
 
 In C, referencing a library (e.g. some_library) is done as follows:  
 `#include <some_library>`
