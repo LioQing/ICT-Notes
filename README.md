@@ -6,6 +6,7 @@
     - [Programming Paradigm](https://github.com/LioQing/ICT-Notes/blob/master/Software%20Development.md#programming-paradigm)
     - [System](https://github.com/LioQing/ICT-Notes/blob/master/Software%20Development.md#system)
     - [Phases of SDLC and Project Initiation](https://github.com/LioQing/ICT-Notes/blob/master/Software%20Development.md#phases-of-sdlc-and-project-initiation)
+    - [The Generation of Executable Files](https://github.com/LioQing/ICT-Notes/blob/master/Software%20Development.md#the-generation-of-executable-files)
         - [Systems Analysis](https://github.com/LioQing/ICT-Notes/blob/master/Software%20Development.md#systems-analysis)
         - [Systems Design](https://github.com/LioQing/ICT-Notes/blob/master/Software%20Development.md#systems-design)
         - [Systems Implementation](https://github.com/LioQing/ICT-Notes/blob/master/Software%20Development.md#systems-implementation)

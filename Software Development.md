@@ -111,6 +111,62 @@ _Revision with examples is better!_
 _Use the following **besttest** examples from the almighty Comp Soc!_  
 _https://github.com/spc-comp-soc/spc-cs-db_
 
+## The Generation of Executable Files
+High level languages are compiled into machine code for the computer to execute.  
+Computer have a series of action to compile a program developed in programming language such as C/C++, Pascal, Java, etc.  
+
+### Program Code Generation
+_italic => (arrow)_: run-time process  
+**bold => (arrow)**: compile-time process  
+
+Program development  
+**=>** Source code (.c)  
+**=>** Compile (stop if compile-time error occurs)  
+**=>** Object code  
+**=>** Linker (links program libraries & shared libraries)  
+**=>** Executable code (.exe) (in hard disks)  
+_=>_ Loader (operating system) (loads dynamic link libraries)  
+_=>_ Executable code (in main memory)  
+_=>_ CPU (return if run-time error occurs)  
+_=>_ Program result
+
+### Linkers and Loaders
+Object code contains reference to external libraries.  
+Linker is required to build a fully executable code from object code.  
+Ready-to-use libraries are called library routines.  
+
+***Dynamic Link Libraries (DLL)***  
+DLL are not copied into the executable code.  
+They are located from the disk, and mapped into the memory space of the program during run-time.  
+
+In C, referencing a library (e.g. some_library) is done as follows:  
+`#include <some_library>`
+
+### Translators
+translate source code into object code
+
+***Assembler***  
+translate assembly language into machine code
+
+In high level programming language, there are 2 translators: 
+
+***Interpreters***  
+translate source code into machine code and execute  
+Examples: python, javascript
+
+***Compilers***  
+compile source code into object code for linker to link libraries into executable  
+Examples: C/C++, Java
+
+table of comparison:
+</empty> | Interpreters | Compilers
+--- | --- | ---
+Mode of translation | One statement a time | One program a time
+Mode of program execution | One translated statement at a time | Complete translated program
+Presense of object code | No | Yes
+Independent program execution without translator | No | Yes
+Error detection | Errors are returned during translation of the statement | Errors such as syntax errors are returned during compilation (compile-time error); other undetectable errors are returned during execution (run-time error)
+
 ## System
 Definition of system:  
 a system of interacting elements that work as a whole to accomplish specific tasks or functions  
@@ -473,35 +529,5 @@ Drawbacks:
     - Require highly skilled developers/designers  
     - Have to be able to be modularized  
 
-## The Generation of Executable Files
-High level languages are compiled into machine code for the computer to execute.  
-Computer have a series of action to compile a program developed in programming language such as C/C++, Pascal, Java, etc.  
 
-### Program Code Generation
-_italic => (arrow)_: run-time process  
-**bold => (arrow)**: compile-time process  
 
-Program development  
-**=>** Source code (.c)  
-**=>** Compile (stop if compile-time error occurs)  
-**=>** Object code  
-**=>** Linker (links program libraries & shared libraries)  
-**=>** Executable code (.exe) (in hard disks)  
-_=>_ Loader (operating system) (loads dynamic link libraries)  
-_=>_ Executable code (in main memory)  
-_=>_ CPU (return if run-time error occurs)  
-_=>_ Program result
-
-### Linkers and Loaders
-Object code contains reference to external libraries.  
-Linker is required to build a fully executable code from object code.  
-Ready-to-use libraries are called library routines.  
-
-***Dynamic Link Libraries (DLL)***  
-DLL are not copied into the executable code.  
-They are located from the disk, and mapped into the memory space of the program during run-time.  
-
-In C, referencing a library (e.g. some_library) is done as follows:  
-`#include <some_library>`
-
-### Translators
