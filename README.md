@@ -17,4 +17,4 @@
     - [Input and Output Devices](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System%20Fundamentals.md#input-and-output-devices)
     - [Secondary Storage Devices](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System%20Fundamentals.md#secondary-storage-devices)
     - [System Software and Application Software](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System%20Fundamentals.md#system-software-and-application-software)
-    - [Computer Systems]()
+    - [Computer Systems](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System%20Fundamentals.md#computer-systems)
