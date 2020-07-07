@@ -487,7 +487,21 @@ Program development
 **=>** Object code  
 **=>** Linker (links program libraries & shared libraries)  
 **=>** Executable code (.exe) (in hard disks)  
-_=>_ Loader (operating system) (loads dynamical-linked libraries)  
+_=>_ Loader (operating system) (loads dynamic link libraries)  
 _=>_ Executable code (in main memory)  
 _=>_ CPU (return if run-time error occurs)  
 _=>_ Program result
+
+### Linkers and Loaders
+Object code contains reference to external libraries.  
+Linker is required to build a fully executable code from object code.  
+Ready-to-use libraries are called library routines.  
+
+***Dynamic Link Libraries (DLL)***  
+DLL are not copied into the executable code.  
+They are located from the disk, and mapped into the memory space of the program during run-time.  
+
+In C, referencing a library (e.g. some_library) is done as follows:  
+`#include <some_library>`
+
+### Translators
