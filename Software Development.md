@@ -116,8 +116,8 @@ High level languages are compiled into machine code for the computer to execute.
 Computer have a series of action to compile a program developed in programming language such as C/C++, Pascal, Java, etc.  
 
 ### Program Code Generation
--> (arrow): run-time process  
-=> (arrow): compile-time process  
+-> (arrow): compile-time process  
+=> (arrow): run-time process   
 
 Program development  
 -> Source code (.c)  
