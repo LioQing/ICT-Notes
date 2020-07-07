@@ -77,12 +77,12 @@ Examples:
 - Python  
 - JavaScript  
 
-#### Objects and Classes  
-Concept:  
-Classification by a thing's function or property  
-Example:  
-Car is a class  
-My car, your car, his car are instances(objects) of the class - car  
+#### Objects 
+Consist of multiple type of data that define properties of an object  
+Consist of functions (methods) that define the behaviour of an object
+
+#### Class
+A template for object, so that multiple objects of the same properties (attributes) and functions (behaviours) can be created and stored  
 
 #### Encapsulation:  
 Advantage: access control (setter/getter)  
@@ -100,10 +100,18 @@ Advantage: reusability
 Explain:  
 Same name under different classes/objects are different  
 
+### Criteria of Selecting a Language for a Specific Program
+- Platform to be used
+- Nature and size of the problem
+- Program execution efficiency and hardware control
+- Portability
+- Program development time
+
 _Revision with examples is better!_  
-_Use the following _besttest_ examples from the almighty Comp Soc!_  
+_Use the following **besttest** examples from the almighty Comp Soc!_  
 _https://github.com/spc-comp-soc/spc-cs-db_
 
+## System
 Definition of system:  
 a system of interacting elements that work as a whole to accomplish specific tasks or functions  
 E.g. alveolar cells (cells) => air sac/ alveoli (tissues) => lung (organ) => respiratory system (system) => respirate (function)  
@@ -137,7 +145,6 @@ A system that comprises people, machines, and/or methods organized to collect, p
 
 Made up of elements, defined with a clear boundary, equipped with interface    
 
-## System
 Characteristics:  
 - Has its users  
 - Has its purpose and some functions to offer  
@@ -465,3 +472,22 @@ Drawbacks:
     - Same as prototyping  
     - Require highly skilled developers/designers  
     - Have to be able to be modularized  
+
+## The Generation of Executable Files
+High level languages are compiled into machine code for the computer to execute.  
+Computer have a series of action to compile a program developed in programming language such as C/C++, Pascal, Java, etc.  
+
+### Program Code Generation
+_italic => (arrow)_: run-time process  
+**bold => (arrow)**: compile-time process  
+
+Program development  
+**=>** Source code (.c)  
+**=>** Compile (stop if compile-time error occurs)  
+**=>** Object code  
+**=>** Linker (links program libraries & shared libraries)  
+**=>** Executable code (.exe) (in hard disks)  
+_=>_ Loader (operating system) (loads dynamical-linked libraries)  
+_=>_ Executable code (in main memory)  
+_=>_ CPU (return if run-time error occurs)  
+_=>_ Program result
