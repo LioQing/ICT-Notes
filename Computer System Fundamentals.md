@@ -490,6 +490,8 @@ User interface | CLI | GUI | GUI | CLI & GUI | CLI & GUI | GUI
 Category | Desktop OS | Desktop OS/Network OS | Desktop OS | Network OS | Network OS | Mobile OS  
 
 ## Utility Program
+desgiend to enhance an OS by providing ways for user to protect files, manage resources and refine system
+
 - backup utility
 - data recovery utility
 - file manager
@@ -502,14 +504,14 @@ Category | Desktop OS | Desktop OS/Network OS | Desktop OS | Network OS | Networ
 - more...
 
 ## Driver Programs
-Allow some peripheral devices to communicate with the computer
+Allow some peripheral devices to communicate with the computer  
 Examples of peripheral devices:
 - printer
 - scanner
 - external modem
 
-## Application Software
-Help user to perform specific tasks  
+## Application Software (aka Integrated Software)
+Enables users to perform specific tasks  
 Cannot run on computer without an operating system
 Classification:
 - productivity software
@@ -518,4 +520,92 @@ Classification:
 - entertainment software
 - education software
 
-## Productivity Software
+***Productivity Software***  
+To perform tasks needed in school or workplace
+- Word processor - for word processing
+    - Microsoft Word
+    - OpenOffice.org Writer
+- Spreadsheet - for mathematical manipulation
+    - Microsoft Excel
+    - OpenOffice.org Calc
+- Presentation software - for presentation
+    - Microsoft PowerPoint
+    - OpenOffice.org Impress
+- Database software - for database management
+    - Microsoft Access
+    - OpenOffice.org Base
+    - MySQL
+- Finance software - for financial management
+    - Microsoft Money
+    - Quicken
+
+***Communication Software***  
+Enables users to communicate or share information with others
+
+- E-mail program
+    - Microsoft Outlook
+    - Microsoft Live Mail
+- Web browser
+    - Internet Explorer (DEAD)
+    - Microsoft Edge
+    - Google Chrome
+    - Mozilla Firefox
+- File transfer protocal (FTP) program
+    - WS FTP
+    - FireFTP
+- Instant messaging program
+    - Yahoo!Messenger
+    - Skype
+    - Discord
+
+***Multimedia Software***  
+Enables users to create and manage multimedia files
+
+- Graphics software
+    - Adobe Photoshop
+    - GIMP
+    - Paint.NET
+- Audio editing software
+    - Adobe Audicity
+    - Anvil Studio
+    - FL Studio
+- Video editing software
+    - Adobe Premiere
+    - Window Movie Maker (not supported anymore)
+    - iMovie
+- Web authoring software
+    - Adobe Dreamweaver
+    - Microsoft Expression Web
+- Computer-aided design (CAD) software
+    - Blender
+    - NX
+    - Caddie
+    - AutoCAD
+- Media management software
+    - Windows Media Center
+    - Google Picasa
+
+***Entertainment Software***  
+Enables users to play computer games and run multimedia files such as movies
+
+- Game
+    - Wolfenstein 3D
+    - Counter-Strike
+    - Age of Empires
+- Multimedia program
+    - VLC media player
+    - Windows Media Player
+    - QuickTime Player
+
+***Education Software***  
+As a tool to facilitate the learning process of users
+
+- Electronic dictionary
+    - Longman Dictionary of Contemporary English
+- Encyclopedia and reference program
+    - Encyclopedia Britannica
+    - Microsoft Encarta
+- Self-learning program
+    - Microsoft Math
+    - Animated Beginning Phonics 1.0
+
