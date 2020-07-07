@@ -116,19 +116,19 @@ High level languages are compiled into machine code for the computer to execute.
 Computer have a series of action to compile a program developed in programming language such as C/C++, Pascal, Java, etc.  
 
 ### Program Code Generation
-_italic => (arrow)_: run-time process  
-**bold => (arrow)**: compile-time process  
+-> (arrow): run-time process  
+=> (arrow): compile-time process  
 
 Program development  
-**=>** Source code (.c)  
-**=>** Compile (stop if compile-time error occurs)  
-**=>** Object code  
-**=>** Linker (links program libraries & shared libraries)  
-**=>** Executable code (.exe) (in hard disks)  
-_=>_ Loader (operating system) (loads dynamic link libraries)  
-_=>_ Executable code (in main memory)  
-_=>_ CPU (return if run-time error occurs)  
-_=>_ Program result
+-> Source code (.c)  
+-> Compile (stop if compile-time error occurs)  
+-> Object code  
+-> Linker (links program libraries & shared libraries)  
+-> Executable code (.exe) (in hard disks)  
+=> Loader (operating system) (loads dynamic link libraries)  
+=> Executable code (in main memory)  
+=> CPU (return if run-time error occurs)  
+=> Program result
 
 ### Linkers and Loaders
 Object code contains reference to external libraries.  
