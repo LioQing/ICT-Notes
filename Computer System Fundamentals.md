@@ -591,7 +591,8 @@ Enables users to play computer games and run multimedia files such as movies
 - Game
     - Wolfenstein 3D
     - Counter-Strike
-    - Age of Empires
+    - StarCraft
+    - World of Warcraft
 - Multimedia program
     - VLC media player
     - Windows Media Player
@@ -608,4 +609,41 @@ As a tool to facilitate the learning process of users
 - Self-learning program
     - Microsoft Math
     - Animated Beginning Phonics 1.0
+
+## Computer Systems
+***Classification***
+- Personal Computers
+    - Desktop Computers
+        - Workstations
+    - Notebook Computers (aka laptop computer)
+    - Handheld Computers (What is this...)
+    - Network Computers
+        - E.g. POS terminal
+- Mainframe Computers
+- Supercomputers
+
+Comparison between desktop computers and notebook computers:
+</empty> | Desktop Computers | Notebook Computers
+---|---|---
+Ability of extension | Higher | Lower
+Cost (with similar specs) | Lower | Higher
+Portability | Non | High
+Power consumption | High | Low
+
+Almost every aspects of a computer:  
+personal computer < mainframe computer < supercomputer
+
+***Applications***
+- Personal computer
+    - Office application
+    - Internet access
+    - Entertainment
+- Mainframe computer
+    - Database management
+    - Web hosting
+    - File management (of an organization)
+- Supercomputer
+    - Tailored program for scientific research
+    - Weather forecasting
+    - Military operation controls
 
