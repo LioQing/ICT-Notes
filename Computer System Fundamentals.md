@@ -499,7 +499,7 @@ desgiend to enhance an OS by providing ways for user to protect files, manage re
 - program uninstaller
 - file comperssion utility
 - disk scanning program
-- disk refragmenter
+- disk defragmenter
 - system monitoring software
 - more...
 
