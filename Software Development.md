@@ -58,12 +58,12 @@ Examples:
 ### Declarative  
 Focus on ‘what’ the goal is
 
-### Logic Programming Language:  
+#### Logic Programming Language:  
 Commonly used in AI  
 Most well-known: Prolog (Programming in Logic)  
 2 type of clause: facts and rules  
 
-### Query Programming Language:  
+#### Query Programming Language:  
 Commonly used in database management system (DBMS)  
 Most well-known: Structured Query Language (SQL/SEQUEL)  
 Examples:  
@@ -500,9 +500,11 @@ Objective: to help new personal to learn the system
 It is a on-going process throughout SDLC  
 
 Type of documentation:  
-- System documentation, to help analysts and programmers to understand the whole system  
-- Technical documentation, to help programmers to learn the subsystems  
+- Program documentation  
+    - System documentation, to help analysts and programmers to understand the whole system  
+    - Technical documentation, to help programmers to learn the subsystems  
 - User documentation, to help user, training, and online support  
+    - User manual, to teach user to operate the system
 
 **_Alternative Approaches in Systems Development_**  
 
