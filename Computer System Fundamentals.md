@@ -23,7 +23,7 @@ Include:
 
 ## Central Processing Unit (CPU)
 Definition:  
-It executes the instructions of a program in order to process data to do tasks.  
+It __executes the instructions of a program__ in order to process data to do tasks.  
 
 ### Arithmetic and Logic Unit (ALU)
 Role:  
@@ -31,7 +31,7 @@ Role:
 - Perform logical operations - comparisons with logical operators (NOT, AND, OR)
 - Evaluate logic statements and return TRUE or FALSE
 - Uses registers to hold data during calculations
-- Results are stored in a register - _accumulator_
+- Results are stored in a register - __accumulator__
 
 ### Control Unit (CU)
 Role:
@@ -100,12 +100,12 @@ More detailed sub-cycle:
 6. Check interruption
 
 **_Interrpt Sub-cycle_**  
-After each execution of instruction, CPU check any interruption.  
-If there is interuption, CPU store the current progress, and continue with next instruction after handling the interrupt.
+__After__ each execution of instruction, CPU __check any interruption__.  
+If there is interuption, CPU __store the current progress__, and continue with next instruction after handling the interrupt.
 
 ## Measurement of CPU Speed
 ### Clock Rate/Clock Frequency
-Normally measured in megahurtz (MHz) or gigahertz (GHz)  
+Normally measured in __megahurtz (MHz)__ or __gigahertz (GHz)__  
 In CPU, 1 Hz = 1 clock cycle/second
 
 ### Number of Cores
@@ -123,16 +123,16 @@ Have direct access to CPU wihtout needing other I/O channels
 Installed on motherboard  
 
 ### Random Access Memory (RAM)
-_Volatile_ - temporarily hold data and instructions, erased after shutdown
+__Volatile__ - temporarily hold data and instructions, erased after shutdown
 
 Classification:  
-- _Dynamic RAM (DRAM)_ - lower power efficiency but higher storage capacity  
-- _Static RAM (SRAM)_ - higher power efficiency but lower storage capacity
+- __Dynamic RAM (DRAM)__ - lower power efficiency but higher storage capacity  
+- __Static RAM (SRAM)__ - higher power efficiency but lower storage capacity
 
 ### Read-Only Memory (ROM)
-_Non-volatile_ - persistent
+__Non-volatile__ - persistent
 
-Stores _basic input/output system (BIOS)_ for management of data transfer between input and output devices
+Stores __basic input/output system (BIOS)__ for management of data transfer between input and output devices
 
 Variance:
 - Erasable programmable read-only memory (EPROM)
@@ -140,9 +140,9 @@ Variance:
 - More...
 
 ### Cache Memory
-High-speed memory  
-Stores recently used data and instructions in CPU  
-Facilitate usage of requently used data and instructions  
+__High-speed__ memory  
+Stores __recently used data and instructions__ in CPU  
+Facilitate usage of frequently used data and instructions  
 
 ## Input and Output Devices
 This chapter talks about devices that are connected to the computer for input and output purpose
@@ -206,7 +206,7 @@ Factors for its quality:
 - Colour depth/bit depth - amount of colours to represent each dot
 - Accuracy - the image's likeness, in terms of colour and shape to original object
 
-*Can be used with _optical character recognition (OCR) software_ to convert text into editable file
+*Can be used with __optical character recognition (OCR) software__ to convert text into editable file
 
 ### Optical Reader
 Read predetermined characters, marks, or codes and translate into digital data for computer to read
@@ -314,7 +314,8 @@ Also called backing storage
 ## Storage Capacity
 The maximimum amount of data can be stored in a storage medium  
 Units in ascending order:  
-(increasing with 1024 of the previous unit)
+- Bit (1 B = 8 bits)  
+(the following increases with 1024 of the previous unit)
 - Byte - B
 - Kilobyte - KB
 - Megabyte - MB
@@ -357,6 +358,8 @@ Parameters:
     - Portability - low
     - Popularity - very popular
     - Usage - computer storage
+	- Terms: 
+		- __Rotation speed__ - how fast the disk spin for search of data
 - Magnetic tape
     - Price - cheapest
     - Capacity - very large (varies, up to 170 TB)
@@ -455,8 +458,8 @@ Forms:
 - Driver program - allow communication between hardware devices and the computer system
 
 **_Features_**
-- single-user <=> multi-user
-- single-tasking <=> multi-tasking
+- single-user <==> multi-user
+- single-tasking <==> multi-tasking
 - multi-processing
 
 ## Operating Systems
@@ -652,7 +655,7 @@ Classified by modes of operation, the number of users, the ways of organization 
 
 ***Single-user Systems and Multi-user Systems***  
 Single-user system is self explanatory  
-Multi-user system the request of one user at a time  
+Multi-user system process the request of one user at a time  
 
 Time sharing:  
 Multi-user system switches the process between multiple users, but the user won't notice.
@@ -663,7 +666,7 @@ Examples:
 - Online game web sites
 
 ***Batch Processing Systems***  
-Executes batch jobs at a scheduled automatically time without human interaction  
+Executes batch jobs at a __scheduled automatically time__ without human interaction  
 
 - Computer resources can be fully utilized
 - The idling time of waiting user data entry is minimized
@@ -675,7 +678,7 @@ Exmaples:
 - Scheduled system backup
 
 ***Real-time Systems***  
-Process data immediately after it has been entered  
+__Process data immediately__ after it has been entered  
 
 - Down time should be minimized
 - Do not require high-end computers
@@ -691,13 +694,13 @@ Examples:
 - Military defence systems
 
 ***Online Interactive Systems***  
-A network of computer systems or a computer server connected to the Internet, responds to incoming request at designated time frames
+A __network of computer systems or a computer server connected to the Internet__, responds to incoming request at designated time frames
 
 Exmaple:
 - Online shop
 
 ***Parallel Processing Systems***  
-Make use of multiple CPUs to run multiple processes at the same time  
+Make use of __multiple CPUs to run multiple processes__ at the same time  
 
 - To increase speed of data processing
 - Consists of a number of CPUs
@@ -707,8 +710,8 @@ Make use of multiple CPUs to run multiple processes at the same time
 - Run a process with a high degree of pipelining or make use of several ALU simultaneously
 - Not all processes can make full use of parallel computers
 
-***Distributed Processing Systems***
-A Collection of computers interconnected by a high-speednetwork to perform a task concurrently
+***Distributed Processing Systems***  
+A __collection of computers interconnected by a high-speednetwork__ to perform a task concurrently
 
 - Assigning small task from a big task into idle computer in the network
 - Resources can be managed more efficiently
