@@ -11,7 +11,7 @@ Properties:
 - **Machine dependent**  
 
 ### Second Gen - Assembly language  
-Instructions are called mnemonic  
+Instructions are called __mnemonic__  
 Code example:  
 ```
 ADD dest, src  
@@ -20,7 +20,7 @@ ADD dest, src
 `dest` and `src`: operand  
 
 Properties:  
-- Directly control CPU  
+- __Directly control CPU__  
 
 ### Third Gen - High level programming language  
 Examples:  
@@ -32,7 +32,7 @@ Examples:
 
 Properties (Advantage):  
 - Closer to human language and more like English  
-- Machine independency  
+- __Machine independency__  
 
 Properties (Disadvantage):  
 - Loss of direct control of CPU and memory address => less efficient  
@@ -77,28 +77,30 @@ Examples:
 - Python  
 - JavaScript  
 
-#### Objects 
-Consist of multiple type of data that define properties of an object  
+#### Objects and Classes
+Object consist of multiple type of data that define properties of an object  
 Consist of functions (methods) that define the behaviour of an object
 
-#### Class
-A template for object, so that multiple objects of the same properties (attributes) and functions (behaviours) can be created and stored  
+Class is template for object, so that multiple objects of the same properties (attributes) and functions (behaviours) can be created and stored  
+
+Objects and Classes allows better __reusability__ of the codes in the program  
+Objects and Classes have the following 3 features:
 
 #### Encapsulation:  
-Advantage: access control (setter/getter)  
+Advantage: __access control__ (setter/getter)  
 Explain:  
 - Public variable (accessable from outside the class)
 - Private variable (only accessable from inside the class)
 
 #### Inheritance:  
-Advantage: reusability  
+Advantage: __reusability__  
 Explain:  
 - Inheritance/extend (functions or variables can be inherited to other classes)  
 
 #### Polymorphism:  
-Advantage: reusability  
+Advantage: __reusability__  
 Explain:  
-Same name under different classes/objects are different  
+Same class can have different forms in the form of subclass
 
 ### Criteria of Selecting a Language for a Specific Program
 - Platform to be used
@@ -133,11 +135,11 @@ Program development
 ### Linkers and Loaders
 Object code contains reference to external libraries.  
 Linker is required to build a fully executable code from object code.  
-Ready-to-use libraries are called _library routines_.  
+Ready-to-use libraries are called __library routines__.  
 
 ***Dynamic Link Libraries (DLL)***  
 DLL are not copied into the executable code.  
-They are located from the disk, and mapped into the memory space of the program during run-time by _loader_.  
+They are located from the disk, and mapped into the memory space of the program during run-time by __loader__.  
 
 In C, referencing a library (e.g. some_library) is done as follows:  
 `#include <some_library>`
@@ -336,13 +338,13 @@ Six principles:
 - Minimize user effort  
 
 Type of user interface:  
-- _Command-driven interface (CLI)_
+- __Command-driven interface (CLI)__
     - Interact via text terminal  
     - User has to remember all commands => difficult to use  
-- _Menu-driven interface_  
+- __Menu-driven interface__  
     - Interact through a list of choices  
     - No need to remember commands => more user friendly than command  
-- _Graphical user interface (GUI)_  
+- __Graphical user interface (GUI)__  
     - Interact through graphical icons  
     - Very common  
     - A pointing device can be used  
@@ -354,8 +356,8 @@ Data and process of a system can be modeled with data and process modeling tools
 Reason to use modeling tools:  
 To avoid ambiguity that exists in natural languages  
 
-- _Entity relationship diagram_ (ERD)  
-- _Data flow diagram_ (DFD)  
+- __Entity relationship diagram__ (ERD)  
+- __Data flow diagram__ (DFD)  
 
 Process model with DFD  
 To describe how:  
@@ -371,20 +373,20 @@ To describe how:
 DFD describe the system at different levels of details => support different type of users  
 (E.g. a librarian would need to know the key functions of a library information system, but not how the functions are delivered)  
 
-_Context diagram_ is the highest level of a DFD, shows how the overall system work  
+__Context diagram__ is the highest level of a DFD, shows how the overall system work  
 Each process in a DFD may be expanded into lower level DFD  
 The first level of DFD below context diagram is called a level 0 diagram  
 
-_Data dictionary_  
+__Data dictionary__  
 Definition: a set of metadata that describes the definitions and representations of data  
 
 _**System flowchart and structure chart**_  
 
-_Flowchart_:  
+__Flowchart__:  
 It graphically represents various programs, files, databases and manual processes.  
 Symbols are labeled and connected.  
 
-_Structure chart_:  
+__Structure chart__:  
 It describes the structural relationship and information exchanged by functions in a program.  
 
 3 components:  
@@ -395,7 +397,7 @@ It describes the structural relationship and information exchanged by functions 
 
 **_Project planning_**  
 
-_Critical path method_ (CPM):  
+__Critical path method__ (CPM):  
 To helps project managers to monitor project progress during the project period  
 To helps project managers to identify which task is critical  
 (if critical path delayed, the whole development will delay)  
@@ -410,7 +412,7 @@ Steps:
 Major benefits: helps compute the project duration and monitor project progress  
 Software tools: Microsoft project  
 
-_Gantt chart_  
+__Gantt chart__  
 Definition: a type of bar chart that illustrates a project schedule  
 Software tools: GanttProject  
 
@@ -508,7 +510,7 @@ Type of documentation:
 
 **_Alternative Approaches in Systems Development_**  
 
-Drawbacks of Waterfall Model:  
+__Drawbacks__ of Waterfall Model:  
 - Clients only have vague idea => user requirement can’t be well identified before program coding  
 - Can’t change user requirement midway => makes changes to preceding phases is difficult  
 - Errors in the early phases cannot be detected until implemented  
@@ -517,14 +519,14 @@ Drawbacks of Waterfall Model:
 ∴Water model is lack of flexibility  
 
 Alternatives:  
-- _Prototyping_  
+- __Prototyping__  
 A simplified version of the system is proposed to clients to collect early feedbacks (iteration) => fewer changes in later stages  
 Drawbacks:  
     - Both analysts and clients focus only on user interface design, and too little on the producing of program code and functionality  
     - User may keep on providing minor feedbacks to add new requirement (scope creep)  
     - The constant changes may eventually lead to the system to become different from the original design, and make it look poor  
 
-- _Rapid Application Development_ (RAD)  
+- __Rapid Application Development__ (RAD)  
 It uses computer-aided software engineering (CASE) tools to assist  
 Drawbacks:   
     - Same as prototyping  
