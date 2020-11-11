@@ -1,4 +1,4 @@
-# Computer System Fundamentals
+# Computer System
 
 ## The System Unit of a Computer System
 This chapter talks about what and how main components of a computer there are and works
