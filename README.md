@@ -20,7 +20,7 @@
     - [System Software and Application Software](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System%20Fundamentals.md#system-software-and-application-software)
     - [Computer Systems](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System%20Fundamentals.md#computer-systems)
 
-- [Internet and its Applications]
+- [Internet](https://github.com/LioQing/ICT-Notes/blob/master/Internet.md)
 	- [The Networking and Internet Basics]
 	- [Communication Software and Protocols]
 	- [Internet Services and Applications]
