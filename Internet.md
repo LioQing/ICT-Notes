@@ -2,6 +2,12 @@
 
 some temporary notes:
 
+## Terms
+- transmission rate - speed of transferring files
+- bandwith - maximum rate of data transfer across a path
+- coverage - the distance where the network can cover
+- latency - delay due to not enough transmission rate
+
 ## Network Switching
 the process of **forwarding messages or informations** in networking
 
