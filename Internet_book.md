@@ -24,9 +24,9 @@ Digital Suscriber(DSM) | Provided via residental phone | Not mentioned
 * Twisted-pair Cable
   * Has RJ-45 connectors on both ends
   * Two types: Shielded Twisted-Pair(STP) and Unshielded Twisted-Pair(UTP)
-   * STP has metal wrapper to reduce EM inteference
+    * STP has metal wrapper to reduce EM inteference
   * Categories of UTP: 1 to 6, with 6 being most popular
-   * Cat 6 transmits 1000 Mbpds within 100 m
+    * Cat 6 transmits 1000 Mbpds within 100 m
 * Coaxial Cable
   * Used for VCR and cable TV conncetions
   * BNC Connectors on both sides
