@@ -57,7 +57,7 @@ Types:
 	- Orbital angular momentum multiplexing
 
 ## Error Detection
-**check the reliability** of the digital data dilivered
+**check the reliability** of the digital data delivered
 
 Types:
 - Repetition codes
