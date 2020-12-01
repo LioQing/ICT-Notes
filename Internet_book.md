@@ -13,9 +13,9 @@
 * Router
  * Translate signals from  different networks
 * Modem
-Type|Way of Transmission|Speed
+Type | Way of Transmission | Speed
 ----|-------------------|-----
-Dial-Up|Analogoue Phone|56Kbps
-Cable|Radio Frequency|Not mentioned
-Digital Suscriber(DSM)|Provided vai residental phone|Not mentioned
+Dial-Up | Analogoue Phone | 56Kbps
+Cable | Radio Frequency | Not mentioned
+Digital Suscriber(DSM) | Provided via residental phone | Not mentioned
 
