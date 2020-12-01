@@ -33,13 +33,13 @@ Digital Suscriber(DSM) | Provided via residental phone | Not mentioned
   * Heavily insulated
 * Optical Fibre Cable
   * Benefits:
-   * Greater signal carrying capacity
-   * Faster data transmission
-   * Reduced susceptibility to inteference
-   * Better security
-   * Thinner, lighter, more durable
+    * Greater signal carrying capacity
+    * Faster data transmission
+    * Reduced susceptibility to inteference
+    * Better security
+    * Thinner, lighter, more durable
   * Drawbacks:
-   * Very expensive
-   * More difficult to install
-   * Special device needed to convert the signals to digital
-   * Difficult to change once installed
+    * Very expensive
+    * More difficult to install
+    * Special device needed to convert the signals to digital
+    * Difficult to change once installed
