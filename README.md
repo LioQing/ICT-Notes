@@ -14,11 +14,11 @@
         - [Systems Maintenance](https://github.com/LioQing/ICT-Notes/blob/master/Software%20Development.md#systems-maintenance)
 
 - [Computer System](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System.md)
-    - [The System Unit of a Computer System](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System%20Fundamentals.md#the-system-unit-of-a-computer-system)
-    - [Input and Output Devices](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System%20Fundamentals.md#input-and-output-devices)
-    - [Secondary Storage Devices](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System%20Fundamentals.md#secondary-storage-devices)
-    - [System Software and Application Software](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System%20Fundamentals.md#system-software-and-application-software)
-    - [Computer Systems](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System%20Fundamentals.md#computer-systems)
+    - [The System Unit of a Computer System](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System.md#the-system-unit-of-a-computer-system)
+    - [Input and Output Devices](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System.md#input-and-output-devices)
+    - [Secondary Storage Devices](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System.md#secondary-storage-devices)
+    - [System Software and Application Software](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System.md#system-software-and-application-software)
+    - [Computer Systems](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System.md#computer-systems)
 
 - [Internet](https://github.com/LioQing/ICT-Notes/blob/master/Internet.md)
 	- [The Networking and Internet Basics]
