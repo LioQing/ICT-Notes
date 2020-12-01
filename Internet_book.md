@@ -43,3 +43,16 @@ Digital Suscriber(DSM) | Provided via residental phone | Not mentioned
     * More difficult to install
     * Special device needed to convert the signals to digital
     * Difficult to change once installed
+### Network Connectors and Interfaces
+* Connectors:
+  * BNC
+  * RJ-45
+* Expansion Bus:
+  * ISA
+  * PCI
+  * PCMCIA
+  * USB
+* Bandwith
+  * 10 Mbps
+  * 100 Mbps
+  * 1000 Mbps
