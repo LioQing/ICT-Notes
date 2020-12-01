@@ -479,7 +479,7 @@ Categories:
     - Run on standalone desktop and notebook computers
     - High hardware expandability
     - High software compatibility
-    - E.g. DOS, Microsoft Windows XP/Vista/7/8/10, Mac OS X
+    - E.g. DOS, Microsoft Windows XP/Vista/7/8/10, Mac OS X, Linux
 - Mobile operating system
     - Run on personal digital assistants (PDAs), smart phone, wireless communication devices, small computing devices
     - E.g. Palm OS, Microsoft Windows Mobile, Android, iOS
