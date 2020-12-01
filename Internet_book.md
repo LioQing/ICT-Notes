@@ -8,4 +8,14 @@
 * Repeater
   * Amplifies received signals and removes unwanted noise
   * Overcomes attenuation over long distances
+* Bridge
+ * Interconnect two LANs of the same type
+* Router
+ * Translate signals from  different networks
+* Modem
+Type|Way of Transmission|Speed
+------------------------------
+Dial-Up|Analogoue Phone|56Kbps
+Cable|Radio Frequency|Not mentioned
+Digital Suscriber(DSM)|Provided vai residental phone|Not mentioned
 
