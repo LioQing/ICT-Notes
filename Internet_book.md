@@ -13,6 +13,7 @@
 * Router
  * Translate signals from  different networks
 * Modem
+
 Type | Way of Transmission | Speed
 ---- | ------------------- | -----
 Dial-Up | Analogoue Phone | 56Kbps
