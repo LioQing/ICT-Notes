@@ -1,5 +1,56 @@
 # Internet and its Applications
 
+## The Networking and Internet Basics
+
+### Local Area Network (LAN)
+a network of personal computers or workstations which covers a geographical area smaller than WAN - a single or a group of buildings 
+
+### Wide Area Network (WAN)
+composed of LANs connected through routers, covers a larger geographical area - a country or the world
+
+### Types of Connections
+- Peer-to-Peer network - computers are connected to nearby computers
+- Client-Server connection - all computers are connected to a server
+
+</empty> | Peer-to-Peer | Client-Server
+--- | --- | ---
+machines | server - machine(s) to provide services for clients, clients - machines requesting services from server(s) | no server, all machines request and share resources between others (peers)
+installation | servers are hard to configure | easier
+administration | centralized | decentralized, hard to manage
+security | secure | less secure due to decentralized resources
+failure | when server fails | do not
+suitable in | large no. of machines | small no. of machines
+<br>
+
+### Hardware
+
+**Network Interface Card (NIC)**
+	provide interface for communication over network
+	has unique Media Access Control (MAC) address for identification
+
+**Connection Devices**
+- Hubs
+	- connect server and computers
+	- message received from one port is forwarded to all ports
+	- cannot simultaneously transmit messages
+- Switches
+	- message received from one port is forward to destination port
+	- can simultaneously transmit messages
+	- perform the forwarding according to MAC address of the destination
+- Repeater
+	- amplify signals
+	- remove noise
+- Bridges
+	- connect LANs of same type
+- Routers
+	- can connect LANs of different type
+	- connect LANs and Internet
+	- perform routing, i.e. find best path for packets to destination
+	- perform forwarding according to IP address of the destination
+- Access point
+	- multiple devices connected to form a wireless network
+	- may act as a router
+
 some temporary notes:
 
 ## Terms
