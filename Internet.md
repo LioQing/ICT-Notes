@@ -2,15 +2,38 @@
 
 ## The Networking and Internet Basics
 
-### Local Area Network (LAN)
-a network of personal computers or workstations which covers a geographical area smaller than WAN - a single or a group of buildings 
+### Types of network
 
-### Wide Area Network (WAN)
-composed of LANs connected through routers, covers a larger geographical area - a country or the world
+**Local Area Network (LAN)**
+a network of computers and other devices over a geographical area smaller than WAN - a single or a group of buildings 
+
+types of LAN:  
+- Wired LAN
+- Wireless LAN (WLAN)
+
+**Wide Area Network (WAN)**
+composed of LANs connected through routers over a larger geographical area - a country or the world (The Internet)
 
 ### Types of Connections
-- Peer-to-Peer network - computers are connected to nearby computers
-- Client-Server connection - all computers are connected to a server
+- peer-to-peer network - computers are connected to nearby computers
+	- examples
+		- BitTorrent
+		- P2PTV
+		- PDTP
+	- advantages
+		- resources can be accessed by other users
+		- encouraging community resource sharing and cooperation
+	- disadvantages
+		- Intellectual property law and illegal sharing
+		- Network neutrality - extra bandwith-usage
+- client-server connection - all computers are connected to a server
+	- examples
+		- dedicated server games
+		- majority of the websites on the Internet
+	- advantages
+		- users can be given different levels of access to the data in the server
+	- disadvantages
+		- require connection to the dedicated server
 
 </empty> | Peer-to-Peer | Client-Server
 --- | --- | ---
@@ -19,7 +42,8 @@ installation | servers are hard to configure | easier
 administration | centralized | decentralized, hard to manage
 security | secure | less secure due to decentralized resources
 failure | when server fails | do not
-suitable in | large no. of machines | small no. of machines
+suitable in | large no. of machines | small no. of machines  
+OSes | OS for networking features (for peer-to-peer) | server: network OS, control resources; client: OS allowed to be identified and communicate with server
 <br>
 
 ### Hardware
@@ -30,22 +54,25 @@ suitable in | large no. of machines | small no. of machines
 
 **Connection Devices**
 - Hubs
-	- connect server and computers
+	- can act as a repeater
+	- multiple ports - connects computers
 	- message received from one port is forwarded to all ports
-	- cannot simultaneously transmit messages
+	- cannot simultaneously transmit messages (collision will occur)
 - Switches
+	- multiple ports - connects computers
 	- message received from one port is forward to destination port
-	- can simultaneously transmit messages
-	- perform the forwarding according to MAC address of the destination
+	- can simultaneously transmit messages (less collision)
+	- perform the forwarding according to MAC address of NIC of the destination
+	- switch-based generally faster than hub-based network
 - Repeater
 	- amplify signals
 	- remove noise
 - Bridges
 	- connect LANs of same type
 - Routers
-	- can connect LANs of different type
+	- connect LANs of different type to form WAN
 	- connect LANs and Internet
-	- perform routing, i.e. find best path for packets to destination
+	- perform routing, i.e. find best path for packets to destination, and store routing table
 	- perform forwarding according to IP address of the destination
 - Access point
 	- multiple devices connected to form a wireless network
@@ -85,6 +112,7 @@ interference | relatively high | medium | low
 
 **Radio Connections**
 - satellite broadband
+	- through satellite by microwave
 	- connects to internet wirelessly
 - microwave broadband
 	- between microwave stations
@@ -95,24 +123,56 @@ interference | relatively high | medium | low
 	- receiver convert radio signal to digital signal
 	- require wireless NIC
 
+## Multiplexing (extra)
+method to **combine multiple signals** into one signal **over shared medium**  
+e.g. multiple telephone calls carried out using one wire  
+
+Types:
+- Space-division multiplexing (**SDM**)
+	- use of **separate point-to-point electrical conductors** for each channel
+	- faster than TDM
+	- require physical connection per communication pair
+- Frequency-division multiplexing (**FDM**)
+	- use of several distinct **frequencies** for each channel
+	- used in analogue system
+	- channel allocated any time
+- Time-division multiplexing (**TDM**)
+	- use at different **time** for each channel
+	- require precise clock synchronization
+- Code-division multiplexing (**CDM**)
+	- use of same frequency, distinguish by **unique codes**
+	- secure
+	- complex scheme
+- Wavelength-division multiplexing (**WDM**)
+	- use of different **wavelength** of laser light for each channel
+	- distinguish by refraction
+	- require optic fiber
+- Other types
+	- Polarization-division multiplexing
+	- Orbital angular momentum multiplexing
+
 ### Internet Access
 **Internet Service Providers (ISP)** provide access to the Internet  
 
 ways to connect:  
-- dial-up connection (max dl rate: several kbps)
-- 56K modems (max dl rate: 56 kbps)
-- ISDN terminal adaptors (max dl rate: 128 kbps)
-- leased line (dl rate: several Mbps)
-- boradband connection
-	- asymmetric digital subscriber line (ADSL) (dl rate: 1.5 - 9 Mbps)
-	- symmetric digital subscriber line (SDSL) (max dl rate: 24 Mbps)
-	- cable modem (dl rate: several Mbps)
+- dial-up access
+- Integrated Services Digital Network (ISDN) terminal adaptors
+- leased line
+- broadband connection
+	- asymmetric digital subscriber line (ADSL)
+	- symmetric digital subscriber line (SDSL)
+	- cable modem 
 - wireless Internet access
 	- Wi-Fi hot spots
 	- wireless application protocol (WAP)
 	- general packet radio services (GPRS)
 	- high speed packet access (HSPA)
-- T-carrier
+
+</empty> | dial-up | ISDN | leased line | broadband | wireless
+--- | --- | --- | --- | --- | ---
+transmission speed | low (max 56 kbps) | low (basic max 128 kbps) | medium (depends on type: ~1 Mbps - ~50 Mbps) | medium (depends on DSL or modem) | medium to fast  
+cost | usually low | medium | high | medium | low to high
+physical security | low | medium | high | low | N/A
 
 ## Communication Software and Protocols
 **communication software** is a software that provide fast and effective way for intert access or activity
@@ -215,7 +275,14 @@ e.g. http://www.originalpress.com/main/main_page.html
 - /main - folder name
 - /main_page.html - file name
 
-some temporary notes:
+**Domain Name System (DNS)**  
+translates domain names into relevant IP addresses and vice versa  
+
+**Hypertext Transfer Protocol (HTTP)**  
+- transfer hypertext file to World Wide Web  
+- run on top of TCP/IP  
+- file is stored in web server  
+- displayed on web browser upon request by a client
 
 ## Terms
 - transmission rate - speed of transfering data
@@ -243,34 +310,6 @@ Types of switching:
 	- info is added to the **header**
 	- packages are stored and forwarded
 
-## Multiplexing
-method to **combine multiple signals** into one signal **over shared medium**  
-e.g. multiple telephone calls carried out using one wire  
-
-Types:
-- Space-division multiplexing (**SDM**)
-	- use of **separate point-to-point electrical conductors** for each channel
-	- faster than TDM
-	- require physical connection per communication pair
-- Frequency-division multiplexing (**FDM**)
-	- use of several distinct **frequencies** for each channel
-	- used in analogue system
-	- channel allocated any time
-- Time-division multiplexing (**TDM**)
-	- use at different **time** for each channel
-	- require precise clock synchronization
-- Code-division multiplexing (**CDM**)
-	- use of same frequency, distinguish by **unique codes**
-	- secure
-	- complex scheme
-- Wavelength-division multiplexing (**WDM**)
-	- use of different **wavelength** of laser light for each channel
-	- distinguish by refraction
-	- require optic fiber
-- Other types
-	- Polarization-division multiplexing
-	- Orbital angular momentum multiplexing
-
 ## Error Detection
 **check the reliability** of the digital data dilivered
 
@@ -286,25 +325,3 @@ Types:
 	- modular arithmetic sum of data over a fixed word length
 - Cyclic redundancy check (**CRC**)
 	- based on remainder of a polynomial function
-
-## Peer-to-peer Network (P2P)
-an architecture that partition tasks or workload between peers  
-
-Peers:
-- equipotent in the network
-- **share part of their resources** (e.g. processing power) to other peers
-- are both the consumer and the supplier
-
-Usage:
-- **File sharing**
-	- BitTorrent
-- **Multimedia**
-	- P2PTV
-	- PDTP
-
-Advantages:
-- Encouraging community resource sharing and cooperation
-
-Disadvantages:
-- Intellectual property law and **illegal sharing**
-- Network neutrality - extra bandwith-usage
