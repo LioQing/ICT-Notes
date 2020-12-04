@@ -21,8 +21,8 @@
     - [Computer Systems](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System.md#computer-systems)
 
 - [Internet](https://github.com/LioQing/ICT-Notes/blob/master/Internet.md)
-	- [The Networking and Internet Basics]
-	- [Communication Software and Protocols]
+	- [The Networking and Internet Basics](https://github.com/LioQing/ICT-Notes/blob/master/Internet.md#the-networking-and-internet-basics)
+	- [Communication Software and Protocols](https://github.com/LioQing/ICT-Notes/blob/master/Internet.md#communication-software-and-protocols)
 	- [Internet Services and Applications]
 	- [Introduction to HTML]
 	- [Elementary Web Authoring]
