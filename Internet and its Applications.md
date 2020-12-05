@@ -2,20 +2,20 @@
 
 ## The Networking and Internet Basics
 
-### Types of network
+## Types of network
 
-**Local Area Network (LAN)**
-a network of computers and other devices over a geographical area smaller than WAN - a single or a group of buildings 
+**Local Area Network (LAN)**  
+a network of computers and other devices over a geographical area **smaller** than WAN - a single or a group of buildings 
 
 types of LAN:  
 - Wired LAN
 - Wireless LAN (WLAN)
 
-**Wide Area Network (WAN)**
-composed of LANs connected through routers over a larger geographical area - a country or the world (The Internet)
+**Wide Area Network (WAN)**  
+composed of LANs connected through routers over a **larger** geographical area - a country or the world (**The Internet**)
 
 ### Types of Connections
-- peer-to-peer network - computers are connected to nearby computers
+- **peer-to-peer network** - computers are connected to nearby computers
 	- examples
 		- BitTorrent
 		- P2PTV
@@ -26,7 +26,7 @@ composed of LANs connected through routers over a larger geographical area - a c
 	- disadvantages
 		- Intellectual property law and illegal sharing
 		- Network neutrality - extra bandwith-usage
-- client-server connection - all computers are connected to a server
+- **client-server connection** - all computers are connected to a server
 	- examples
 		- dedicated server games
 		- majority of the websites on the Internet
@@ -46,11 +46,11 @@ suitable in | large no. of machines | small no. of machines
 OSes | OS for networking features (for peer-to-peer) | server: network OS, control resources; client: OS allowed to be identified and communicate with server
 <br>
 
-### Hardware
+## Hardware
 
 **Network Interface Card (NIC)**  
-	provide interface for communication over network
-	has unique Media Access Control (MAC) address for identification
+provide interface for communication over network
+has unique **Media Access Control (MAC)** address for identification
 
 **Connection Devices**
 - Hubs
@@ -88,16 +88,16 @@ OSes | OS for networking features (for peer-to-peer) | server: network OS, contr
 
 **Wires**
 - telephone lines
-- coaxial cables
+- **coaxial cables**
 	- electric signals
-- twisted-pair wires
+- **twisted-pair wires**
 	- electric signals
 	- twisted to reduce EM interference
 	- 2 types
-		- shielded twisted pair (STP) cables
-		- unshielded twisted pair (UTP) cables
+		- shielded twisted pair (**STP**) cables
+		- unshielded twisted pair (**UTP**) cables
 	- commonly used in LANs
-- optical fibres
+- **optical fibres**
 	- light signals
 	- faster
 	- difficult to eavesdrop
@@ -122,6 +122,26 @@ interference | relatively high | medium | low
 	- sender convert digital signal to radio signal
 	- receiver convert radio signal to digital signal
 	- require wireless NIC
+
+## Network Switching (extra)
+the process of **forwarding messages or informations** in networking
+
+Categories:
+- Connectionless - no previous communication is established
+- Connection Oriented - pre-established communication is established
+
+Types of switching:
+- **Circuit Switching**
+	- communicate over a **dedicated** communciation path 
+	- **remains connected** during the communication session
+- **Message Switching**
+	- data is routed in its entirety
+	- data is stored in the intermediate nodes
+	- **store-and-forward** technique
+- **Packet Switching**
+	- entire data is broken down into smaller chunks called **packets**
+	- info is added to the **header**
+	- packages are stored and forwarded
 
 ## Multiplexing (extra)
 method to **combine multiple signals** into one signal **over shared medium**  
@@ -151,22 +171,32 @@ Types:
 	- Polarization-division multiplexing
 	- Orbital angular momentum multiplexing
 
-### Internet Access
+## Internet Access
 **Internet Service Providers (ISP)** provide access to the Internet  
 
 ways to connect:  
 - dial-up access
-- Integrated Services Digital Network (ISDN) terminal adaptors
+	- requires dial-up modem & telephone line to connect to Internt via ISP
+- Integrated Services Digital Network (ISDN)
+	- requires a terminal adapter (TA) connected to a telephone line
 - leased line
+	- dedicated line that provide digital comminication services
+	- example:  
+		- T-carriers
 - broadband connection
-	- asymmetric digital subscriber line (ADSL)
-	- symmetric digital subscriber line (SDSL)
-	- cable modem 
+	- by any means (optical fibre, coaxial, twisted-pair) faster than dial-up access
+	- example:
+		- asymmetric digital subscriber line (ADSL)
+		- symmetric digital subscriber line (SDSL)
+		- cable modem 
 - wireless Internet access
-	- Wi-Fi hot spots
-	- wireless application protocol (WAP)
-	- general packet radio services (GPRS)
-	- high speed packet access (HSPA)
+	- by not using any wired connection, generally by microwave or radiowave connections
+	- example:
+		- Wi-Fi hot spots
+		- mobile broadband
+		- wireless application protocol (WAP)
+		- general packet radio services (GPRS)
+		- high speed packet access (HSPA) and HSPA+
 
 </empty> | dial-up | ISDN | leased line | broadband | wireless
 --- | --- | --- | --- | --- | ---
@@ -200,17 +230,17 @@ typical softwares:
 
 **protocols** are a set of rules guiding communcation between computer systems through standardization
 
-open system interconnection (OSI) model (from top to bottom):
-- application layer
-	- examples of protocols: FTP, HTTP
-- presentation layer
-- session layer
-- transport layer
-	- examples of protocols: TCP, UDP
-- network layer
-	- example of protocol: IP
-- data link layer
-- physical layer
+open system interconnection (OSI) mode:
+1. physical layer
+2. data link layer
+3. network layer
+	- IP
+4. transport layer
+	- TCP, UDP
+5. session layer
+6. presentation layer
+7. application layer
+	- FTP, HTTP
 
 **Transmission Control Protocol (TCP)**  
 responsible for:
@@ -225,6 +255,7 @@ responsible for:
 - routing the packets to destination
 
 **IP Addess**
+- for identifying the device with the network interface
 - all devices using IP will have an IP address
 - IP identify destinations according to IP address
 - IP address have 2 parts
@@ -235,7 +266,7 @@ responsible for:
 - consists of 4 numbers, each 8 bits (2 hex digits), total 32 bits (8 hex digits)
 - each numbers value range from 0 - 255 (0 - FF)
 - example: 133.23.234.66
-- classes from A to D, from large network to small network
+- classes for networks of different sizes
 
 **IPv6 Address**  
 - consists of 8 hex numbers, each 16 bits (4 hex digits), total 128 bits (32 hex digits)
@@ -276,7 +307,7 @@ e.g. http://www.originalpress.com/main/main_page.html
 - /main_page.html - file name
 
 **Domain Name System (DNS)**  
-translates domain names into relevant IP addresses and vice versa  
+translates domain names into relevant IP addresses and vice versa, the process is called **name resolution**  
 
 **Hypertext Transfer Protocol (HTTP)**  
 - transfer hypertext file to World Wide Web  
@@ -284,44 +315,8 @@ translates domain names into relevant IP addresses and vice versa
 - file is stored in web server  
 - displayed on web browser upon request by a client
 
-## Terms
-- transmission rate - speed of transfering data
+## Terms for Answering Questions
+- transmission rate - amount of data transfer per unit time
 - bandwith - maximum rate of data transfer across a path
 - coverage - the distance where the network can cover
 - latency - delay due to not enough transmission rate
-
-## Network Switching
-the process of **forwarding messages or informations** in networking
-
-Categories:
-- Connectionless - no previous communication is established
-- Connection Oriented - pre-established communication is established
-
-Types of switching:
-- **Circuit Switching**
-	- communicate over a **dedicated** communciation path 
-	- **remains connected** during the communication session
-- **Message Switching**
-	- data is routed in its entirety
-	- data is stored in the intermediate nodes
-	- **store-and-forward** technique
-- **Packet Switching**
-	- entire data is broken down into smaller chunks called **packets**
-	- info is added to the **header**
-	- packages are stored and forwarded
-
-## Error Detection
-**check the reliability** of the digital data dilivered
-
-Types:
-- Repetition codes
-	- sends the data multiple times
-- Vertical redundancy check (**VRC**) / **Parity check**
-	- **odd parity**
-	- **even parity**
-- Longitudinal redundancy check (**LRC**) / 2-D parity check
-	- data arranged in 2D table with fixed rows and columns
-- **Checksum**
-	- modular arithmetic sum of data over a fixed word length
-- Cyclic redundancy check (**CRC**)
-	- based on remainder of a polynomial function
