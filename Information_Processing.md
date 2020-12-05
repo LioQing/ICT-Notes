@@ -51,4 +51,19 @@
   - Programmer
     - Converting systems design into program code
   - Technician
-    - ~~IT dog~~
+    - ~~IT dog~~ Managing information systems, by doing activities such as:
+      - Backup of data
+      - Monitoring resource usage
+  - Network Manager
+    - Monitoring availability and performance
+  - Data Entry Operator
+    - Entering data into the system
+### Information Processes
+- Data Collection
+- Organization
+- Storage
+- Processing
+- Analysis
+- Transmission
+- Presentation
+
