@@ -46,3 +46,9 @@
 - Processes
 - Technologies
 - Personnel
+  - System Analyst
+    - Research, planning and implementation for end users
+  - Programmer
+    - Converting systems design into program code
+  - Technician
+    - ~~IT dog~~
