@@ -13,6 +13,9 @@
         - [Systems Conversion](https://github.com/LioQing/ICT-Notes/blob/master/Software%20Development.md#systems-conversion)
         - [Systems Maintenance](https://github.com/LioQing/ICT-Notes/blob/master/Software%20Development.md#systems-maintenance)
 
+- [Information Processing](https://github.com/LioQing/ICT-Notes/blob/master/Information_Processing.md)
+	- [Introduction](https://github.com/LioQing/ICT-Notes/blob/master/Information_Processing.md#introduction)
+
 - [Computer System Fundamentals](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System%20Fundamentals.md)
     - [The System Unit of a Computer System](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System%20Fundamentals.md#the-system-unit-of-a-computer-system)
     - [Input and Output Devices](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System%20Fundamentals.md#input-and-output-devices)
