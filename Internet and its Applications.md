@@ -320,3 +320,180 @@ translates domain names into relevant IP addresses and vice versa, the process i
 - bandwith - maximum rate of data transfer across a path
 - coverage - the distance where the network can cover
 - latency - delay due to not enough transmission rate
+
+## Internet Services and Applications
+
+## Search Engine
+def: a set of program allowing user to find information on WWW with keywords
+
+types:
+- general searches
+	- Google
+	- Yahoo!
+- specialized searches
+	- Medlin Plus
+	- Bloomberg
+	- Business.com
+- general searches using natural languages
+	- Ask Jeeves!
+
+techiniques:
+- use precise keyword
+- use "+" in front of a word for finding the exact term
+- use "-" in front of a word for eliminating the exact term
+- use double quotation ("") at a phrase for finding the exact phrase
+- using wildcard (*) for searching part of a word (e.g. comput\* for computer, computing, etc.)
+- using boolean searching
+
+**Quality of Information**  
+- completeness
+- accuracy
+- authority
+- objectivity
+- timeliness
+- legality
+
+## Internet Services
+
+graphics:
+- bitmaps
+	- bmp
+	- jps/jpeg
+	- gif
+	- png
+- vector graphics
+	- swf
+	- svf
+	- wmf
+	- eps
+
+audio:
+- wav
+- wma
+- mp3
+- aac
+- ogg
+
+video:  
+- wmv
+- rm
+- mov
+- flv
+- mpeg
+- avi
+
+**plug-ins**  
+def: an add-on program for playing a particular multimedia element
+
+example:  
+- Flash Player *(RIP)* for flash content (.flv)  
+- Acrobat Reader for Acrobat documents (.pdf)
+- QuickTime for QuickTime audio and video files (.mov)
+
+advantages:  
+- keep web browser efficient & small file size
+- keep browser up-to-date to handle latest multimedia elements
+
+***E-mails***  
+format of an e-mail address:  
+userid@domain.com
+
+userid: User ID  
+domain.com: mail server domain name  
+
+features:  
+- To
+- From
+- Subject
+- Content/Body
+
+optional features:  
+- CC (Carbon copy) - one or more addresses of recipients to receive a copy
+- BCC (Blind Carbon Copy) - destination e-mail addresses are not listed in the header
+- Signature - pice of text at the end of the message to identify the sender
+
+protocols:  
+**Simple Mail Transfer Protocol (SMTP)**  
+used for: 
+- from sender's PC to sender's mail server
+- from sender's mail server to receiver's mail server
+
+**Post Office Proticol (POP)**  
+currently POP3 is the standard  
+
+used for:
+- from receiver's server to receiver's PC
+- the e-mails on the server are usually deleted after download to save space
+
+**Internet Message Access Protocol (IMAP)**  
+currently IMAP4 is the standard  
+
+used for:
+- from receiver's server to receiver's PC
+- stores all read and unread e-mails on the mail server
+
+complete process:  
+sender's computer   
+=SMTP=> sender's mail server  
+=SMTP=> Internet  
+=SMTP=> receiver's mail server  
+=POP/IMAP=> receiver's computer
+
+extension:  
+**Multipurpose Internet Mail Extension**  
+used for:  
+- send non-text e-mail attachments (e.g. photos, video, audio, word documents)
+- included in the e-mail header
+
+***File Transfer Protocol (FTP)***
+feature:  
+- client-server network model => user authentication
+- anonymous FTP servers  
+
+file transfer mode:  
+- ASCII transfer mode - sent as plain text
+- binary mode - sent bit by bit and receiver's computer reassemble the bit stream
+
+***Remote Logon***  
+feature:
+- for remote control of a computer through Internet
+- telnet was the first protocol for this purpose (CLI interface)
+- telnet was replaced by newer protocol, Secure Sheel (SSH)
+
+***Newsgroup***  
+feature:
+- threaded disuccion/categorized
+- newsreader program/web browser for reading, posting, browsing messages
+- largely replaced by forums and blogs now
+
+***Discussion Forums***  
+feature:  
+- consists of subforums, which may have several different topics
+- informations kept on specific servers by the owner
+- user authentication
+
+***Online Chat***  
+refers to one-to-one or one-to-many dicussion over Internet
+
+feature:
+- can be text-based or voice based
+- some program support video with voice-chat
+- examples such as Skype, Yahoo!, Discord
+
+## Streaming Technology
+the client start decoding and playing the file after *a small portion of file is received*  
+
+types:
+- webcasting
+- voice mail
+- video conferencing
+
+## Applications
+- E-commerce
+	- models
+		- Business-to-Business (B2B)
+		- Business-to-Consumer (B2C)
+		- Consumer-to-Consumer (C2C)
+- E-government
+- E-learning
+- E-entertainment
