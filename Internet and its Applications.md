@@ -497,3 +497,79 @@ types:
 - E-government
 - E-learning
 - E-entertainment
+
+## HTML
+name: HyperText Markup Language  
+extension: .htm/.html  
+usage: display web page contents including text, images, and other multimedia elements  
+structure:  
+- tags usually in pairs
+- standard source file with a head and a body
+- each tag can have attributes  
+```html
+<html>
+	<head>
+		<h1>Header Here</h1>
+	</head>
+	<body>
+		<p>This is a paragraph</p>
+	</body>
+</html>
+```
+tags: https://www.w3schools.com/tags/ref_byfunc.asp
+
+## Elementary Web Authoring
+**website**  
+definition: a collection of web pages of the same theme  
+
+3 stages of establishing a website:  
+1. planning
+	- determine objectives
+	- determine theme
+	- collect information on intended users
+	- collect relevant contents
+	- design structure
+		- linear structure
+		- hierarchical structure
+		- cyclic structure
+2. construction
+	- design the layout for arrangement of multimedia elements
+	- consider issues like use of frames, location of menu for navigation, etc.
+	- organize files and folders
+	- conduct testing  and upload web page to server
+3. maintenance
+	- update website contents
+	- replace broken/out-dated links
+
+factors:
+- font
+	- font face
+	- font style
+	- font size
+- color
+	- text color
+	- background color
+- arrangement of information
+	- table
+	- list
+- multimedia elements
+	- video
+	- images
+	- audio
+- navigation
+	- a frame for menu
+- links
+	- meaningful text for the hyperlink for user to understand
+- updates
+	- provide information on the update of the website
+- languages
+- site map for navigation
+- testing in various web browsers
+- use of e-mail, discussion forum, form to collect feedback
+
+tools:
+- web authoring tool
+	- do not directly require HTML
+	- effects of 'what-you-see-is-what-you-get'
+- text editor
+	- for editing HTML
