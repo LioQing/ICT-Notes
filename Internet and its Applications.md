@@ -106,9 +106,8 @@ has unique **Media Access Control (MAC)** address for identification
 
 </empty> | twisted pair cables | coaxial cables | optical fibres
 --- | --- | --- | ---
-price | low | medium | high
-transmission rate | low | medium | very high
 interference | relatively high | medium | low
+distance | short | medium | very long
 
 **Radio Connections**
 - satellite broadband
