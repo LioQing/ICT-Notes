@@ -31,3 +31,6 @@
 | VALUE    | Returns the numerical representation of a piece of text.| =VALUE(String)| =VALUE("133") = 133
 | DAY      | Returns the day of the Date given.| =DAY(Date) | =DAY(31/12/2077) = 31
 | MONTH    | Returns the month of the Date given.| =MONTH(Date) | =MONTH(31/12/2077) = 12
+| YEAR     | Returns the year of the Date given.| =YEAR(Date) | =YEAR(31/12/2077) = 2077
+| WEEKDAY  | Finds the day of the week of this Date, in a numeric form.| =WEEKDAY(Date) | 1 = Sunday, 2 = Monday, 3 = Tuesday, ..., 7 = Saturday (=WEEKDAY(6/1/2021) = 4)
+| TODAY    | Finds the current day. | =TODAY() | 
