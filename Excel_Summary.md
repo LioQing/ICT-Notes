@@ -25,4 +25,9 @@
 | CHAR     | Returns the ASCII character as specified by the key code given.| =CHAR(Number) |
 | LEN      | Returns the length (number of characters) of a string.| =LEN(String)
 | LEFT     | Returns the leftmost *n* characters in the string provided.| =LEFT(String,n) | =LEFT("I IS MR WONG",3) = "I I"
-| MID      | 
+| MID      | Returns a *n* characters from the string given, starting from the *p*th character.| =MID(String,n,p)| =MID("I IS MR WONG",3,4) = "IS M"
+| RIGHT    | Returns the rightmost *n* characters in the string provided.| =RIGHT(String,n) | =RIGHT("I IS MR WONG",3) = "ONG"
+| TEXT     | Returns the textual representation of the number given.| =TEXT(Number) | =TEXT(133)= "133"
+| VALUE    | Returns the numerical representation of a piece of text.| =VALUE(String)| =VALUE("133") = 133
+| DAY      | Returns the day of the Date given.| =DAY(Date) | =DAY(31/12/2077) = 31
+| MONTH    | Returns the month of the Date given.| =MONTH(Date) | =MONTH(31/12/2077) = 12
