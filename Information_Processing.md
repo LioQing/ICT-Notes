@@ -185,3 +185,20 @@ advantages:
 - program-data independence (program extract data from DBMS)
 - flexible access to shared data
 - centralized control of data
+
+### File Access Modes
+- sequential access mode
+	- data are stored and accessed one by one by read/write head
+	- application
+		- for records that will be processed periodically
+		- e.g. payroll processing, backup and recovery of database
+	- example devices
+		- magnetic tape
+- direct access mode
+	- data are stored and accessed directly on a 2D plate by read/write head
+	- application
+		- for applications needed for immediate and direct access to data
+		- e.g. airline reservation, online banking transaction, secondary storage for OS
+	- example devices
+		- floppy disks
+		- optical disks (DVD-RAM, CD-RW)
