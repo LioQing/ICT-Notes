@@ -145,3 +145,43 @@ Types:
  	- modular arithmetic sum of data over a fixed word length
 - Cyclic redundancy check (**CRC**)
  	- based on remainder of a polynomial function
+
+### Data Verification
+def: the control to check whether the inputted data matches that in the source document  
+
+- input data twice
+	- by same person
+	- e.g. e-mail address or password when creating online account
+- double data entry
+	- by different person
+
+### Data Hierarchy
+top to bottom level:
+1. database
+	- collection of interrelated tables
+	- e.g. database of a school library (containing tables for student, book, loan records)
+2. table
+	- collection of similar records
+	- each row is a record
+	- each column is a field
+3. record
+	- collection of fields
+	- e.g. personal records of students
+4. field
+	- combination of characters, meaningful information
+	- e.g. telephone number, mailing address, monethly income, marital status
+5. data
+	- characters
+
+### Database Mangment System (DBMS)  
+
+features/functions:
+- organize and manage data structure
+- allowed to access, create, organize, retrieve, control data
+- data can be integrated and presented
+
+advantages:
+- avoid uncontrolled data redundancy and preventing inconsistency
+- program-data independence (program extract data from DBMS)
+- flexible access to shared data
+- centralized control of data
