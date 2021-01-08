@@ -202,3 +202,72 @@ advantages:
 	- example devices
 		- floppy disks
 		- optical disks (DVD-RAM, CD-RW)
+
+## Data Representation
+
+### Number Systems
+commonly used:
+- denary (base 10)
+- binary (base 2)
+- hexadecimal (base 16)
+  - 10 to 15 = A to F
+
+conversion trick:  
+**binary to hexadecimal** (or reverse for hex to bin)
+1. 10011011<sub>2</sub>
+2. 1\*8+0\*4+0*2+1\*1 ***+*** 1\*8+0\*4+1\*2+1\*1
+3. 9 ***+*** B(11)
+4. 9B<sub>16</sub>
+
+### Number Representation in Computer System
+
+units:
+- Bit
+  - abbr: b
+  - size: 2 states (1 or 0)
+  - def: the basic unit of a binary digit
+- Byte
+  - abbr: B
+  - size: 8 b
+- Kilobyte
+  - abbr: KB
+  - size: 2<sup>10</sup> B = 1,024 B
+- Megabyte
+  - abbr: MB
+  - size: 2<sup>20</sup> B = 1,024 KB = 1,048,576 B
+- Gigabyte
+  - abbr: GB
+  - size: 2<sup>30</sup> B = 1,024 MB ≈ 1 billion B
+- Terabyte
+  - abbr: TB
+  - size: 2<sup>40</sup> B = 1,024 GB ≈ 1 trillion B
+
+**representation of unsigned binary integer**  
+word length | range of value
+--- | ---
+4-bit | 0<sub>10</sub> to 15<sub>10</sub>
+8-bit | 0<sub>10</sub> to 255<sub>10</sub>
+16-bit | 0<sub>10</sub> to 65,536<sub>10</sub>
+24-bit | 0<sub>10</sub> to 16,777,216<sub>10</sub>
+<br>
+
+**sign-and-magnitude**  
+the sign bit (leftmost) is to specify the sign  
+i.e. 0 is positive, 1 is negative
+
+word length | range of value
+--- | ---
+4-bit | -7<sub>10</sub> to 7<sub>10</sub>
+8-bit | -127<sub>10</sub> to 127<sub>10</sub>
+16-bit | -32,767<sub>10</sub> to 32,767<sub>10</sub>
+24-bit | -8,388,607<sub>10</sub> to 8,388,607<sub>10</sub>
+<br>
+
+**two's complement**  
+widely used in computers  
+such that value of 0 won't be represented by 2 numbers (like in sign-and-magnitude)  
+
+convert from binary integer to two's complement:  
+1. convert to one's complement
+  - flip all digits (1 to 0, 0 to 1)
+2. add 1 to the one's complement
