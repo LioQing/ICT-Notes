@@ -16,6 +16,7 @@
 - [Information Processing](https://github.com/LioQing/ICT-Notes/blob/master/Information_Processing.md)
 	- [Introduction](https://github.com/LioQing/ICT-Notes/blob/master/Information_Processing.md#introduction)
 	- [Data Organization and Data Control](https://github.com/LioQing/ICT-Notes/blob/master/Information_Processing.md#data-organization-and-data-control)
+	- [Data Representation](https://github.com/LioQing/ICT-Notes/blob/master/Information_Processing.md#data-representation)
 	- [Excel](https://github.com/LioQing/ICT-Notes/blob/master/Excel_Summary.md)
 
 - [Computer System Fundamentals](https://github.com/LioQing/ICT-Notes/blob/master/Computer%20System%20Fundamentals.md)
