@@ -268,6 +268,38 @@ widely used in computers
 such that value of 0 won't be represented by 2 numbers (like in sign-and-magnitude)  
 
 convert from binary integer to two's complement:  
-1. convert to one's complement
-  - flip all digits (1 to 0, 0 to 1)
+1. convert the positive binary integer to one's complement
+	- flip all digits (1 to 0, 0 to 1)
 2. add 1 to the one's complement
+
+### Addition and Subtraction
+all number systems have the same way as denary addition and subtraction (including two's complement)  
+
+**overflow error**  
+def: when 2 numbers are added and subtracted, it exceeds the range to store the result  
+example: 8-bit unsigned integer range from 0<sub>10</sub> to 255<sub>10</sub>, when a number results in more than this value is calculated, overflow error occurs  
+
+two's complement overflow error:  
+when number calculated has the opposite sign as the 2 added or subtracted numbers  
+
+### Character Coding Systems
+
+**American Standard Code for Information Interchange (ASCII)**  
+size: 7 bits (2<sup>7</sup> different characters)  
+table: http://www.asciitable.com/
+
+**Chinese Character Coding Systems**  
+common character coding systems:
+- Big5
+	- used for traditional chinese
+	- size: 2 B
+	- used in HK, Macau, TW
+- Guo Biao (GB)
+	- used for simplified chinese
+	- size: 2 B
+- **Unicode**
+	- used for all existing languages in the world
+	- size: 1 B to 4 B
+	- represented by **code points** (variable in length)
+	- commonly used characters are in the front of the code table
+	- used as international standard
