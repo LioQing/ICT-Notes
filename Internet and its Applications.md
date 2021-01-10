@@ -35,7 +35,7 @@ composed of LANs connected through routers over a **larger** geographical area -
 	- disadvantages
 		- require connection to the dedicated server
 
-</empty> | Peer-to-Peer | Client-Server
+</empty> | Client-Server | Peer-to-Peer
 --- | --- | ---
 machines | server - machine(s) to provide services for clients, clients - machines requesting services from server(s) | no server, all machines request and share resources between others (peers)
 installation | servers are hard to configure | easier
