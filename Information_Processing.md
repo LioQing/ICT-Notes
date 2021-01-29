@@ -303,3 +303,133 @@ common character coding systems:
 	- represented by **code points** (variable in length)
 	- commonly used characters are in the front of the code table
 	- used as international standard
+
+### Graphics
+
+**bitmap/raster graphics**  
+def: 
+- resolution - number of rows and columns of pixels
+	- unit: pixel per inch (ppi)
+	- screen display: 72 to 95 ppi
+	- photograph printing: 200 ppi to 400 ppi
+- colour depth - size of storage to represent colour in each pixels  
+	- unit: bits
+	- common colour depth: 1, 8, 16, 24 bits
+
+file size = resolution × colour depth = height × width × colour depth  
+
+formats:  
+- jpg/jpeg
+- png
+- gif
+- bmp
+
+**vector graphics**  
+def:
+- vector objects
+	- defined by mathematical formulae
+
+usage:
+- logo
+- banner
+- line art
+- detailed drawings in deisgn works (e.g. architectural design)
+
+formats:
+- svg
+- pdf
+- ai
+
+**comparison**  
+<empty/> | bitmap grpahics | vector graphics
+--- | --- | ---
+file size | larger | smaller
+factors of file size | resolution & colour depth | complexity of objects
+resolution | fixed | independent
+edit | pixels | shapes and lines
+usage | computer display, photography | logo, design works, line art
+advantage | directly digitized from camera | zooming in does not cause quality downgrade
+
+### Audio
+
+def:
+- sample size / bit resolution - number of bits taken in each sample  
+	- unit: bit
+	- general size: 8-bit, 16-bit, 24-bit, 32-bit
+- sampling rate - number of sample taken per unit time
+	- unit: hertz (Hz) - per second
+	- general size: 11,025 Hz, 22,050 Hz, 44,100 Hz, 96,000 Hz
+- duration - total time length  
+	- unit: second
+- no. of channels
+	- mono audio = audio of 1 channel
+	- stereo audio = audio of 2 channels
+
+audio | sample size | sampling rate
+--- | --- | ---
+voice over telephone | 8-bit | 11,025 Hz
+FM broadcast | 16-bit | 22,050 Hz
+Compact disc | 16-bit | 44,100 Hz
+DVD | 24-bit | 96,000 Hz
+music | 16-bit | 44,100 Hz
+movie & video | 16-bit | 48,000 Hz
+
+file size = sample size × sampling rate × duration × no. of channels
+
+formats:
+- mp3
+- wav
+
+*extra*
+44.1 kHz & 48 kHz are the most common sampling rate
+reason: https://www.youtube.com/watch?v=fZzMXdxbOes
+
+### Video
+mechanism:
+a sequence of images played at high speed to give the sense of motion and continuity
+
+def:
+- frame size
+	- unit: {no. of pixels} × {no. of pixels}
+	- dimension of one frame in pixels
+- frame rate
+	- unit: frames per second (fps)
+	- number of frame displayed per unit time
+- duration
+	- unit: second
+	- play time of the video
+- colour depth
+	- unit: bit
+	- size of storage to represent colour of a pixel
+
+formats:
+- avi
+- mp4
+- mpeg-1
+- mpeg-2
+- wmv
+
+## Analogue Data & Digital Data
+
+<empty/> | analogue data | digital data
+--- | --- | ---
+representation & measurement | continuous | discrete
+physical size | large | small
+life-time | short | long
+transmission efficiency | high rate of error | low rate of error
+accuracy | depends on sampling technique | low
+absolute replication | nearly impossible as data is lost in the process | possible, error-free and easy
+mode of access | mostly sequential access | depends (direct access is possible)
+data analysis | difficult to search, analyze, reconstruct | easy to be reused and processed by computer
+
+## Conversion between Analogue Data & Digital Data
+
+
+**digitization**  
+def: the process of converting analogue data to digital data
+
+steps:
+1. sampling
+	- obtaining the sample data from analogue signal every fixed time interval  
+2. quantization
+	- converting attribute of each sample data into digital code using predefined scale
