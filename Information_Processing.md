@@ -467,3 +467,95 @@ usage: provide tools and functions for efficient data access and generating repo
 
 ### Task Scheduling Systems
 usage: track financial plans, workforce allocations, marketing expenditures, projects and activities
+
+### Word Processor  
+def: an application software that allows user to input, edit, format, ouput text  
+
+examples:
+- Microsoft Word
+- OpenOffice.org Writer
+- Google Doc
+
+advantages:
+- easy and fast to create document with features and predefined templates
+- saving documents in digital form and transferred
+- save time, space, cost
+- features e.g. grammar checkers, thesaurus, mail merge improve accuracy and productivity
+
+### Text Editing
+**insertion and overtype mode**  
+insertion mode: push all text on right of cursor to the right, and insert the typed character next to cursor  
+overtype mode: replace the character on the right of cursor with the typed character
+
+**copy and paste**  
+copy text from else where to clipboard and paste it in another position
+
+**moving selection**  
+using cut to cut out a text to clipboard and paste it in another position  
+using mouse to select and drag the highlighted text to another position
+
+**paste special**  
+paste text, graphics, ole (object linking and embedding) objects  
+
+**find and replace**  
+find and replace texts from a window
+
+### Formatting Text Attributes
+- typeface
+	- Times New Roman
+	- Arial
+	- Century Gothic
+	- Comic Sans MS
+- font size
+- colour
+- font style
+	- bold
+	- underline
+	- italic
+- character shading
+- character border
+- superscript
+- subscript
+
+### Page Layout
+- orientation
+	- portrait
+	- landscape
+- margins
+- paper size
+- page break
+- header and footer
+
+### Paragraph Properties
+- justification
+	- left-aligned
+	- centre-aligned
+	- right-aligned
+	- full-justified
+- list
+	- dullset
+	- numberings
+- indentation
+- line spacing
+
+### Other Features
+- columns
+- images
+- tables
+- table of contents
+- index
+- footnotes
+- spelling and grammar checker
+- autocorrect
+- thesaurus
+- mail merge
+
+### SpreadSheet
+def: an application software for input, organize, analyse data and create charts
+
+examples:  
+- Microsoft Excel
+- OpenOffice.org Calc
+- Google Spreadsheet
+
+layout: table with rows and columns
