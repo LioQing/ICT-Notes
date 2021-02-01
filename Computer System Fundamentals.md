@@ -41,7 +41,7 @@ Role:
     3. Instruct the ALU how to perform an operation
 - Monitor and coordinate all I/O operations and system units
 
-### Rigisters
+### Registers
 
 **_General Purpose Registers (GPRs)_**    
 Used by instructions of assembly and machine code program
