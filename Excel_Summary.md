@@ -15,7 +15,7 @@
 | ROUND    | Rounds the value *n* to the specified number *p* of decimal places. | =ROUND(n,p) |
 | INT      | Rounds down (casts) the value given to an integer.| =INT(Number) |
 | MOD      | Finds the remainder (mod) of the division between number *n* and dividend *p*.| =MOD(n,p)| =MOD(9,2) = 1
-| POWER    | Returns the value of the base *n* to the power *p*.| =POWER(N,P)| =POWER(3,2, = 9
+| POWER    | Returns the value of the base *n* to the power *p*.| =POWER(N,P)| =POWER(3,2) = 9
 | RAND     | Generates a random decimal within the range 0<=x<1.| =RAND() | To scale the number to between 0 to *x*, use = x * RAND(). To scake the number to between *y* and *z*, use = (z - y) * RAND() + y
 | IF       | Returns *a* if the condition given is true, *b* otherwise.| =IF(Condition,a,b) | 
 | AND      | Returns true if all the conditions given are true, false otherwise.| =AND(Condition_1,Condition_2,...)| More than 2 conditions can be added.
