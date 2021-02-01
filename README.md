@@ -29,6 +29,6 @@
 - [Internet and its Applications](https://github.com/LioQing/ICT-Notes/blob/master/Internet%20and%20its%20Applications.md)
 	- [The Networking and Internet Basics](https://github.com/LioQing/ICT-Notes/blob/master/Internet%20and%20its%20Applications.md#the-networking-and-internet-basics)
 	- [Communication Software and Protocols](https://github.com/LioQing/ICT-Notes/blob/master/Internet%20and%20its%20Applications.md#communication-software-and-protocols)
-	- [Internet Services and Applications]
-	- [Introduction to HTML]
-	- [Elementary Web Authoring]
+	- [Internet Services and Applications](https://github.com/LioQing/ICT-Notes/blob/master/Internet%20and%20its%20Applications.md#internet-services-and-applications)
+	- [Introduction to HTML](https://github.com/LioQing/ICT-Notes/blob/master/Internet%20and%20its%20Applications.md#html)
+	- [Elementary Web Authoring](https://github.com/LioQing/ICT-Notes/blob/master/Internet%20and%20its%20Applications.md#elementary-web-authoring)
