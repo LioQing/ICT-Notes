@@ -319,10 +319,11 @@ def:
 file size = resolution × colour depth = height × width × colour depth  
 
 formats:  
-- jpg/jpeg
-- png
-- gif
-- bmp
+- jpg/jpeg (loss/rarely lossless)
+- png (lossless)
+- gif (lossless)
+- bmp (lossless)
+- tiff (lossy/lossless)
 
 **vector graphics**  
 def:
@@ -377,8 +378,10 @@ movie & video | 16-bit | 48,000 Hz
 file size = sample size × sampling rate × duration × no. of channels
 
 formats:
-- mp3
-- wav
+- wav (uncompressed)
+- aiff (uncompressed)
+- mp3 (lossy)
+- wma (lossy/lossless)
 
 *extra*
 44.1 kHz & 48 kHz are the most common sampling rate
@@ -402,14 +405,20 @@ def:
 	- unit: bit
 	- size of storage to represent colour of a pixel
 
-formats:
-- avi
-- mp4
-- mpeg-1
-- mpeg-2
+compression method
+- H.264
+- MPEG-1
+- MPEG-2
+- MPEG-4
 - wmv
 
-## Analogue Data & Digital Data
+format
+- avi (uncompressed)
+- mp4 (lossless)
+- mpeg/mpg (lossy)
+- wmv (lossless)
+
+### Analogue Data & Digital Data
 
 <empty/> | analogue data | digital data
 --- | --- | ---
@@ -422,7 +431,7 @@ absolute replication | nearly impossible as data is lost in the process | possib
 mode of access | mostly sequential access | depends (direct access is possible)
 data analysis | difficult to search, analyze, reconstruct | easy to be reused and processed by computer
 
-## Conversion between Analogue Data & Digital Data
+### Conversion between Analogue Data & Digital Data
 
 
 **digitization**  
@@ -433,3 +442,28 @@ steps:
 	- obtaining the sample data from analogue signal every fixed time interval  
 2. quantization
 	- converting attribute of each sample data into digital code using predefined scale
+
+## Office Automation
+
+### Application Softwares
+application software | example
+--- | ---
+word processor | Microsoft Word, Google Doc
+spreadsheet | Microsoft Excel, Google Spreadsheet
+database software | Microsoft Access
+presentation software | Microsoft PowerPoint, Google Slide
+communication software | Microsoft Outlook
+image editing software | Adobe Photoshop
+
+### Data Application
+types of data application | application software
+data analysis | spreadsheet, statistic software
+digital image modification | image editing software
+document production | word processor
+report generation | database management system
+
+### Database Management System (DBMS)
+usage: provide tools and functions for efficient data access and generating reports  
+
+### Task Scheduling Systems
+usage: track financial plans, workforce allocations, marketing expenditures, projects and activities
