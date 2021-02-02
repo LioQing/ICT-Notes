@@ -1,83 +1,106 @@
 # Software Development
 
 ## Programming Languages Generations
+
 ### Generation 
 Name: X Generation Language = XGL (X is a number)  
 
 ### First Gen - Machine language  
+
 Machine language = machine code  
 Properties:  
-- Binary  
-- **Machine dependent**  
+
+* Binary  
+* **Machine dependent**  
 
 ### Second Gen - Assembly language  
+
 Instructions are called __mnemonic__  
 Code example:  
-```
+
+``` 
 ADD dest, src  
 ```
-`ADD`: opcode  
-`dest` and `src`: operand  
+
+`ADD` : opcode  
+`dest` and `src` : operand  
 
 Properties:  
-- __Directly control CPU__  
+
+* __Directly control CPU__  
 
 ### Third Gen - High level programming language  
+
 Examples:  
-- C/C++  
-- Pascal  
-- BASIC  
-- Ada  
-- Fortran  
+
+* C/C++  
+* Pascal  
+* BASIC  
+* Ada  
+* Fortran  
 
 Properties (Advantage):  
-- Closer to human language and more like English  
-- __Machine independency__  
+
+* Closer to human language and more like English  
+* __Machine independency__  
 
 Properties (Disadvantage):  
-- Loss of direct control of CPU and memory address => less efficient  
+
+* Loss of direct control of CPU and memory address => less efficient  
 
 ### Fourth Gen  
+
 Examples:  
 Structured Query Language (SQL)  
 Cascading Style Sheets (CSS)  
 
 ### Fifth Gen  
+
 Artificial Intelligent (AI)  
 
 ## Programming Paradigm
+
 Language classification by pattern/model
 
 ### Procedural/Imperative  
+
 Focus on ‘how’ the goal should be reached  
 Examples:  
-- C  
-- BASIC  
-- Pascal  
+
+* C  
+* BASIC  
+* Pascal  
 
 ### Declarative  
+
 Focus on ‘what’ the goal is
 
 #### Logic Programming Language:  
+
 Commonly used in AI  
 Most well-known: Prolog (Programming in Logic)  
 2 type of clause: facts and rules  
 
 #### Query Programming Language:  
+
 Commonly used in database management system (DBMS)  
 Most well-known: Structured Query Language (SQL/SEQUEL)  
 Examples:  
-- Oracle  
-- Microsoft Access  
+
+* Oracle  
+* Microsoft Access  
 
 ### Object-oriented Programming(OOP)  
+
 Examples:  
-- C++  
-- Java  
-- Python  
-- JavaScript  
+
+* C++  
+* Java  
+* Python  
+* JavaScript  
 
 #### Objects and Classes
+
 Object consist of multiple type of data that define properties of an object  
 Consist of functions (methods) that define the behaviour of an object
 
@@ -87,37 +110,45 @@ Objects and Classes allows better __reusability__ of the codes in the program
 Objects and Classes have the following 3 features:
 
 #### Encapsulation:  
+
 Advantage: __access control__ (setter/getter)  
 Explain:  
-- Public variable (accessable from outside the class)
-- Private variable (only accessable from inside the class)
+
+* Public variable (accessable from outside the class)
+* Private variable (only accessable from inside the class)
 
 #### Inheritance:  
+
 Advantage: __reusability__  
 Explain:  
-- Inheritance/extend (functions or variables can be inherited to other classes)  
+
+* Inheritance/extend (functions or variables can be inherited to other classes)  
 
 #### Polymorphism:  
+
 Advantage: __reusability__  
 Explain:  
 Same class can have different forms in the form of subclass
 
 ### Criteria of Selecting a Language for a Specific Program
-- Platform to be used
-- Nature and size of the problem
-- Program execution efficiency and hardware control
-- Portability
-- Program development time
+
+* Platform to be used
+* Nature and size of the problem
+* Program execution efficiency and hardware control
+* Portability
+* Program development time
 
 _Revision with examples is better!_  
 _Use the following **besttest** examples from the almighty Comp Soc!_  
 _https://github.com/spc-comp-soc/spc-cs-db_
 
 ## The Generation of Executable Files
+
 High level languages are compiled into machine code for the computer to execute.  
 Computer have a series of action to compile a program developed in programming language such as C/C++, Pascal, Java, etc.  
 
 ### Program Code Generation
+
 -> (arrow): compile-time process  
 => (arrow): run-time process   
 
@@ -133,6 +164,7 @@ Program development
 => Program result
 
 ### Linkers and Loaders
+
 Object code contains reference to external libraries.  
 Linker is required to build a fully executable code from object code.  
 Ready-to-use libraries are called __library routines__.  
@@ -142,9 +174,10 @@ DLL are not copied into the executable code.
 They are located from the disk, and mapped into the memory space of the program during run-time by __loader__.  
 
 In C, referencing a library (e.g. some_library) is done as follows:  
-`#include <some_library>`
+ `#include <some_library>`
 
 ### Translators
+
 translate source code into object code
 
 ***Assembler***  
@@ -161,15 +194,17 @@ compile source code into object code for linker to link libraries into executabl
 Examples: C/C++, Java
 
 table of comparison:
-</empty> | Interpreters | Compilers
---- | --- | ---
-Mode of translation | One statement a time | One program a time
-Mode of program execution | One translated statement at a time | Complete translated program
-Presense of object code | No | Yes
-Independent program execution without translator | No | Yes
-Error detection | Errors are returned during translation of the statement | Errors such as syntax errors are returned during compilation (compile-time error); other undetectable errors are returned during execution (run-time error)
+
+| </empty>                                         | Interpreters                                            | Compilers                                                                                                                                                   |
+|--------------------------------------------------|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Mode of translation                              | One statement a time                                    | One program a time                                                                                                                                          |
+| Mode of program execution                        | One translated statement at a time                      | Complete translated program                                                                                                                                 |
+| Presense of object code                          | No                                                      | Yes                                                                                                                                                         |
+| Independent program execution without translator | No                                                      | Yes                                                                                                                                                         |
+| Error detection                                  | Errors are returned during translation of the statement | Errors such as syntax errors are returned during compilation (compile-time error); other undetectable errors are returned during execution (run-time error) |
 
 ## System
+
 Definition of system:  
 a system of interacting elements that work as a whole to accomplish specific tasks or functions  
 E.g. alveolar cells (cells) => air sac/ alveoli (tissues) => lung (organ) => respiratory system (system) => respirate (function)  
@@ -179,9 +214,11 @@ E.g. alveolar cells (cells) => air sac/ alveoli (tissues) => lung (organ) => res
 Elements are interrelated and interdependent  
 
 ### Boundary and Environment  
+
 Scope tells what the system is supposed to achieve upon its completion in accordance with the user needs  
 
 ### Interface  
+
 Definition:   
 The communication boundary between two entities  
 
@@ -190,60 +227,72 @@ Allows information flow between a system and its environment
 E.g. input and output devices  
 
 ### Subsystem/Processes  
+
 Definition of subsystems:  
 Smaller system elements of a system  
 
 ### System Status  
+
 Storage to store them  
 System may react differently to the same input depending on its current status  
 
 ### Information System  
+
 Definition of information system:  
 A system that comprises people, machines, and/or methods organized to collect, process, transmit, and disseminate data the represent user information  
 
 Made up of elements, defined with a clear boundary, equipped with interface    
 
 Characteristics:  
-- Has its users  
-- Has its purpose and some functions to offer  
-- Has a boundary and well defined scope  
-- May be composed of some sub-systems, their purpose are also clearly defined  
-- Subsystems within the same information system interact  
+
+* Has its users  
+* Has its purpose and some functions to offer  
+* Has a boundary and well defined scope  
+* May be composed of some sub-systems, their purpose are also clearly defined  
+* Subsystems within the same information system interact  
 
 ### Developing a New System  
+
 3 solutions:  
-- Software package  
-- In-house development  
-- Outsourcing  
+
+* Software package  
+* In-house development  
+* Outsourcing  
 
 Factors on deciding:  
-- Suitable package exists or not  
-- Has suitable staff to develop or not  
-- Cost-effective to develop in-house or not  
-- Has reliable and experienced developers to take up outsourced project or not  
-- Has suitable staff to administer the software or not  
-- Project budget  
-- More...  
+
+* Suitable package exists or not  
+* Has suitable staff to develop or not  
+* Cost-effective to develop in-house or not  
+* Has reliable and experienced developers to take up outsourced project or not  
+* Has suitable staff to administer the software or not  
+* Project budget  
+* More...  
 
 ### System Development Life Cycle (SDLC)  
+
 Definition of SDLC:  
 Conceptual model for development of an information system  
 E.g. waterfall model, rapid application development (RAD)  
 
 ### The Waterfall Model  
+
 Characteristics:  
-- Sequential and linear  
-- Phases with well-defined beginning and end points  
-- Distinctive goals and end with deliverables  
-- No turning back to a previous phase  
+
+* Sequential and linear  
+* Phases with well-defined beginning and end points  
+* Distinctive goals and end with deliverables  
+* No turning back to a previous phase  
 
 Procedures:
+
 1. Analysis  
 2. Design  
 3. Implementation  
 4. Maintenance  
 
 ## Phases of SDLC and Project Initiation
+
 1. Systems Analysis
 2. Systems Design
 3. Systems Implementation
@@ -251,13 +300,15 @@ Procedures:
 5. Documentation
 
 Solutions:
-- Off-the-shelf softwares package => software packages
-- In-house team => in-house development
-- Hire a service provider => outsourcing
+
+* Off-the-shelf softwares package => software packages
+* In-house team => in-house development
+* Hire a service provider => outsourcing
 
 ### Systems Analysis
 
 #### Identifying users’ requirements  
+
 Objective:  
 Determine the user requirements of the system to be developed  
 
@@ -289,62 +340,71 @@ Examine the documents used
 A set of complete description of the requirements of the system to be developed  
 
 #### Feasibility study  
+
 Objective:  
 Determine whether the purpose of developing a system is justified  
 Use:  
 Propose alternative solutions and make a recommendation  
 
-- **_Technical feasibility_**  
+* **_Technical feasibility_**  
+
 Whether the solution can be supported by existing technology  
 Candidate system can provide appropriate responses to what extent it can support the technical enhancement
 
-- **_Economic feasibility_**  
+* **_Economic feasibility_**  
+
 A cost-benefit analysis => measures the financial risks associated with the project  
 Development costs - developing (one time cost)  
 Operation costs - maintaining (recurring cost)  
 
-- **_Organizational feasibility_** (Operational feasibility)   
+* **_Organizational feasibility_** (Operational feasibility)   
+
 Whether the solution can be integrated into the ongoing business of the organization.  
 Whether the system could work effectively once it is developed and implemented.  
 
-- **_Behavioural feasibility_**  
+* **_Behavioural feasibility_**  
+
 Evaluate and estimate the user attitude towards the development of the system.  
 
+* **_Schedule feasibility_**  
 
-- **_Schedule feasibility_**  
 Whether the development can be completed within given time contraint.
 
 Formulate and evaluate alternative proposals  
 After feasibility study, several possible solutions may be proposed  
 
 Write requirement specifications:  
-- Define the functions of the system  
-- Define the Performance Specification  
-- Define the User Interface  
-- More…  
+
+* Define the functions of the system  
+* Define the Performance Specification  
+* Define the User Interface  
+* More…  
 
 ### Systems Design  
+
 Suitable data structures and algorithms are used for delivering functions for the program  
 
 _**User Interface**_  
 It defines how a system interacts with its users => affect acceptance and usability  
 
 Six principles:  
-- Layout of screen, form and report  
-- Content awareness  
-- Aesthetics  
-- User experience  
-- Consistency  
-- Minimize user effort  
+
+* Layout of screen, form and report  
+* Content awareness  
+* Aesthetics  
+* User experience  
+* Consistency  
+* Minimize user effort  
 
 Type of user interface:  
-- __Command-driven interface (CLI)__
+
+* __Command-driven interface (CLI)__
     - Interact via text terminal  
     - User has to remember all commands => difficult to use  
-- __Menu-driven interface__  
+* __Menu-driven interface__  
     - Interact through a list of choices  
     - No need to remember commands => more user friendly than command  
-- __Graphical user interface (GUI)__  
+* __Graphical user interface (GUI)__  
     - Interact through graphical icons  
     - Very common  
     - A pointing device can be used  
@@ -356,19 +416,21 @@ Data and process of a system can be modeled with data and process modeling tools
 Reason to use modeling tools:  
 To avoid ambiguity that exists in natural languages  
 
-- __Entity relationship diagram__ (ERD)  
-- __Data flow diagram__ (DFD)  
+* __Entity relationship diagram__ (ERD)  
+* __Data flow diagram__ (DFD)  
 
 Process model with DFD  
 To describe how:  
-- The processes or activities are performed  
-- Data moves among them so as to accomplish the system goal  
+
+* The processes or activities are performed  
+* Data moves among them so as to accomplish the system goal  
 
 4 symbols:  
-- Process  
-- Data flows  
-- Data stores  
-- External entities  
+
+* Process  
+* Data flows  
+* Data stores  
+* External entities  
 
 DFD describe the system at different levels of details => support different type of users  
 (E.g. a librarian would need to know the key functions of a library information system, but not how the functions are delivered)  
@@ -390,10 +452,10 @@ __Structure chart__:
 It describes the structural relationship and information exchanged by functions in a program.  
 
 3 components:  
-- Module  
-- Connections (between modules)  
-- Communications (of data)  
 
+* Module  
+* Connections (between modules)  
+* Communications (of data)  
 
 **_Project planning_**  
 
@@ -403,6 +465,7 @@ To helps project managers to identify which task is critical
 (if critical path delayed, the whole development will delay)  
 
 Steps:  
+
 1. List all task with  
     1. Earliest start date  
     2. Estimated length of time required  
@@ -417,15 +480,19 @@ Definition: a type of bar chart that illustrates a project schedule
 Software tools: GanttProject  
 
 ### Systems Implementation  
+
 Phases:  
-- Program coding => realization and actualization of the abstract models  
-- System testing => identify errors and inadequacies  
+
+* Program coding => realization and actualization of the abstract models  
+* System testing => identify errors and inadequacies  
 
 System testing:  
-- Compare the actual results with the expected results  
-- Should be performed in different development stages => cheaper to fix  
+
+* Compare the actual results with the expected results  
+* Should be performed in different development stages => cheaper to fix  
 
 Type of testing:  
+
 1. Unit testing => ensure the function of individual modules  
 2. System testing => evaluate the entire system (usually done by system analyst)  
 3. Acceptance testing => carried out by the users to ensure the requirements are met  
@@ -435,16 +502,18 @@ Type of testing:
 **_Test Plan_**  
 Definition: a series of tests to be carried out in a systematic way to test a system  
 Content:  
-- Test number  
-- Requirement addressed  
-- Test cases  
-- Expected result  
-- Actual result  
+
+* Test number  
+* Requirement addressed  
+* Test cases  
+* Expected result  
+* Actual result  
 
 ### Systems Conversion  
 
 Types of strategies:  
-- Direct cutover conversion  
+
+* Direct cutover conversion  
     - Pros  
         - Simple and straightforward  
         - Cost the least  
@@ -452,7 +521,7 @@ Types of strategies:
         - Difficult to switch back to the old system  
     - Errors in the new system can be fatal  
 
-- Parallel conversion  
+* Parallel conversion  
     - Pros  
         - Compare new and old to uncover flaws  
         - Old system serves as backup  
@@ -460,7 +529,7 @@ Types of strategies:
         - Extra expenses  
         - Workload of user is doubled  
 
-- Phased conversion  
+* Phased conversion  
     - Pros  
         - Errors can be fixed without long standstill  
         - Cost less than parallel, because users are not required to do twice  
@@ -468,7 +537,7 @@ Types of strategies:
         - Take long time for new system to be fully installed  
         - Compatibility of new and old system maybe difficult to implement  
 
-- Pilot conversion  
+* Pilot conversion  
     - Pros  
         - Errors only in pilot site, limits harm to the entire organization  
         - Other sites can learn from the pilot site  
@@ -477,61 +546,69 @@ Types of strategies:
         - A considerable amount of time to install in all sites  
 
 ### Systems maintenance  
+
 Partly definition: on-going support  
 Include: maintaining, upgrading, training  
 
-- Fixing bugs (cannot fulfill user requirements)  
-- System recovery after crash  
-- System enhancement (perfect the system and additional features)  
-- System integration (integrate multiple systems)  
-- Underlying software or network change (new OS, DBMS, hardwares)  
-- User assistance (online support, FAQs, staff support)  
+* Fixing bugs (cannot fulfill user requirements)  
+* System recovery after crash  
+* System enhancement (perfect the system and additional features)  
+* System integration (integrate multiple systems)  
+* Underlying software or network change (new OS, DBMS, hardwares)  
+* User assistance (online support, FAQs, staff support)  
 
 **_User training_**  
 Objective:  
-- Help users to accomplish their tasks  
-- Train on what the users need to do  
+
+* Help users to accomplish their tasks  
+* Train on what the users need to do  
 
 Training methods:  
-- Classroom training  
-- One-to-one coaching  
-- Computer-based training (CBT)  
+
+* Classroom training  
+* One-to-one coaching  
+* Computer-based training (CBT)  
 
 ### Systems Documentation  
+
 Objective: to help new personal to learn the system  
 It is a on-going process throughout SDLC  
 
 Type of documentation:  
-- Program documentation  
+
+* Program documentation  
     - System documentation, to help analysts and programmers to understand the whole system  
     - Technical documentation, to help programmers to learn the subsystems  
-- User documentation, to help user, training, and online support  
+* User documentation, to help user, training, and online support  
     - User manual, to teach user to operate the system
 
 **_Alternative Approaches in Systems Development_**  
 
 __Drawbacks__ of Waterfall Model:  
-- Clients only have vague idea => user requirement can’t be well identified before program coding  
-- Can’t change user requirement midway => makes changes to preceding phases is difficult  
-- Errors in the early phases cannot be detected until implemented  
-- Long time from proposal to delivery of any usable system  
+
+* Clients only have vague idea => user requirement can’t be well identified before program coding  
+* Can’t change user requirement midway => makes changes to preceding phases is difficult  
+* Errors in the early phases cannot be detected until implemented  
+* Long time from proposal to delivery of any usable system  
 
 ∴Water model is lack of flexibility  
 
 Alternatives:  
-- __Prototyping__  
+
+* __Prototyping__  
+
 A simplified version of the system is proposed to clients to collect early feedbacks (iteration) => fewer changes in later stages  
 Drawbacks:  
+
     - Both analysts and clients focus only on user interface design, and too little on the producing of program code and functionality  
     - User may keep on providing minor feedbacks to add new requirement (scope creep)  
     - The constant changes may eventually lead to the system to become different from the original design, and make it look poor  
 
-- __Rapid Application Development__ (RAD)  
+* __Rapid Application Development__ (RAD)  
+
 It uses computer-aided software engineering (CASE) tools to assist  
 Drawbacks:   
+
     - Same as prototyping  
     - Require highly skilled developers/designers  
     - Have to be able to be modularized  
-
-
-

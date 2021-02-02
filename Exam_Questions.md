@@ -1,112 +1,134 @@
 secondary Storage of Devices:  
-- larger devices: hard disk  
-- smaller devices: flash memory/SSD  
+
+* larger devices: hard disk  
+* smaller devices: flash memory/SSD  
 
 power consumption:  
-- flash memory/SSD < HDD (due to efficient startup)
-- more power CPU higher consumption
-- display unit
-	- LED < LCD
-	- higher resolution
+
+* flash memory/SSD < HDD (due to efficient startup)
+* more power CPU higher consumption
+* display unit
+  + LED < LCD
+  + higher resolution
 
 startup time:
-- mobile OS < desktop OS
-- flash memory/SSD < HDD
-- more peripherals longer startup  
+
+* mobile OS < desktop OS
+* flash memory/SSD < HDD
+* more peripherals longer startup  
 
 ergonomic typing:
-- position of eye/neck/hands
+
+* position of eye/neck/hands
 
 SSL:
-- data encrypted
-- SSL certificated web site can be trusted
+
+* data encrypted
+* SSL certificated web site can be trusted
 
 public and private keys:
-- public key used by sender to encrypt
-- private key used by receiver to decrypt
-- ensure only receiver can decrypt
+
+* public key used by sender to encrypt
+* private key used by receiver to decrypt
+* ensure only receiver can decrypt
 
 account security:
-- multiple levels of authentications
-	- authenticate identity
-- one-time password
-	- change password after login to prevent leak
+
+* multiple levels of authentications
+  + authenticate identity
+* one-time password
+  + change password after login to prevent leak
 
 don't use public computer for important thing:
-- ppl can peek at her private information
-- private information stored in the computer by cookies
-- not guaranteed security as spyware may be on public computers
+
+* ppl can peek at her private information
+* private information stored in the computer by cookies
+* not guaranteed security as spyware may be on public computers
 
 copyright:
-- granted at its creation and fixed state
-- does not require registration or declaration
-- creator owns its copyright
-- to use the item, copyright need to be granted by the owner
-- non-commercial use is not exempted
 
-digitisation compared to paper documents:
-- more multimedia elements, attractive
-- read multiple documents with ease
-- search topics
+* granted at its creation and fixed state
+* does not require registration or declaration
+* creator owns its copyright
+* to use the item, copyright need to be granted by the owner
+* non-commercial use is not exempted
+
+digitization compared to paper documents:
+
+* more multimedia elements, attractive
+* read multiple documents with ease
+* search topics
 
 presentation with presentation files:
-- hard copies provided for reference
-- editing is simple
-- preparation time shorter
-- work flow controlled dynamically, interactive
+
+* hard copies provided for reference
+* editing is simple
+* preparation time shorter
+* work flow controlled dynamically, interactive
 
 presentation with video:
-- vivid and authentic, more visual effect
-- pace of presentation can be controlled in advance
+
+* vivid and authentic, more visual effect
+* pace of presentation can be controlled in advance
 
 DNS:
-- does not need to install locally, ISP provided it
+
+* does not need to install locally, ISP provided it
 
 e-mail classified as spam:
-- add to trust/non-spam list
+
+* add to trust/non-spam list
 
 QR code vs bar code:
-- store more data 
-- high error correction capability
-- can be scanned in different orientation
-- can be made up of more types of data (kanji)
+
+* store more data 
+* high error correction capability
+* can be scanned in different orientation
+* can be made up of more types of data (kanji)
 
 QR code vs typing URL:
-- fast to obtain URL in mobile device for accessing website
-- reduce typing error
+
+* fast to obtain URL in mobile device for accessing website
+* reduce typing error
 
 QR code usage:
-- linking website
-- store phone number/contact information
-- store product information
+
+* linking website
+* store phone number/contact information
+* store product information
 
 reasons for eye strain using computer:
-- improper viewing angle of monitor
-- improper height of monitor
-- distance from eye to monitor too close
-- insufficient light
-- close to window without curtain
+
+* improper viewing angle of monitor
+* improper height of monitor
+* distance from eye to monitor too close
+* insufficient light
+* close to window without curtain
 
 BT program bad:
-- software from unidentified individuals
-- privacy copies of software
+
+* software from unidentified individuals
+* privacy copies of software
 
 BT program good:
-- share files/resources with trusted ppl
+
+* share files/resources with trusted ppl
 
 installed antivirus still infected:
-- new computer virus
-- deactivated antivirus
-- not updated antivirus
+
+* new computer virus
+* deactivated antivirus
+* not updated antivirus
 
 illegal activity:
-- access digital identity without authentication
-	- email account
-- steals digital properties
-	- coupon
+
+* access digital identity without authentication
+  + email account
+* steals digital properties
+  + coupon
 
 downloaded files with hyperlinks not working:
-- hyperlinks only links to poster's local files
-- size of multimedia elements are too large
-- video cannot play because codec is missing
 
+* hyperlinks only links to poster's local files
+* size of multimedia elements are too large
+* video cannot play because codec is missing
