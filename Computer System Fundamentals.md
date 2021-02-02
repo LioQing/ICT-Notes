@@ -349,7 +349,7 @@ Parameters:
     - Portability - high
     - Popularity - non
     - Usage - replaced by USB flash drives
-- Hard disks
+- **Hard disks**
     - Price - medium
     - Capacity - very large (~2TB) (still improving nowadays)
     - Speed - fast
@@ -398,7 +398,7 @@ Parameters:
     - Portability -
     - Popularity -
     - Usage - 
-- Solid State Drive (SSD)
+- **Solid State Drive (SSD)**
     - Price - high
     - Capacity -
     - Speed - very fast
