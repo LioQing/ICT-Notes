@@ -29,7 +29,7 @@ This page **only** consisted all the SQL commands given in the formula sheet in 
 | Operator | Description | Notes                  |
 |----------|:-----------:|------------------------|
 | `&`      | Bitwise AND | **Not Given in HKDSE** |
-| `|`      | Bitwise OR  | **Not Given in HKDSE** |
+| `\|`      | Bitwise OR  | **Not Given in HKDSE** |
 | `~`      | Bitwise NOT | **Not Given in HKDSE** |
 
 **Notes**\
