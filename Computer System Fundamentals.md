@@ -820,10 +820,26 @@ A __collection of computers interconnected by a high-speed network__ to perform 
 * Network requirement is considerably a problem with very high amount of computers in the network
 
 
-##Answering skills
+### Answering skills
 
-***when comparing pc***
-* Battery operating time: cpu/storage device/display unit consumes more electricity
-* startup time OS/storage device(flash memory) support a shorter startup time
-* suitable for typing: keep your eyes/neck in good ergonomic position
+***when comparing computers***
+
+* secondary storage of devices
+	* larger devices: hard disk  
+	* smaller devices: flash memory/SSD  
+
+* power consumption
+	* flash memory/SSD < HDD (due to efficient startup)
+	* more power CPU higher consumption
+	* display unit
+	+ LED < LCD
+	+ higher resolution
+
+* startup time
+	* mobile OS < desktop OS
+	* flash memory/SSD < HDD
+	* more peripherals longer startup  
+
+* ergonomic typing:
+	* ergonimic position of eye/neck/hands
 
