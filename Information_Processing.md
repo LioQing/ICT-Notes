@@ -667,6 +667,20 @@ row | data
 
 pivot chart: graphical representation of pivot table
 
+**chart**
+
+usage: visualize the relationship between data.
+
+| Chart type | Purpose |
+| -----------|---------|
+|coulumn chart, bar chart| compare data in several caregories|
+|line chart|display the trend over time|
+|pie chart|compare the proportions or percentages contributed by several categories|
+|scatter chart|illustrate the correlations between two data series|
+
+keywords for chart: title, axis title, axis label, [legend](https://support.microsoft.com/en-us/office/show-or-hide-a-chart-legend-or-data-table-5d663010-fee5-4953-a2ab-18f529543fd5)
+
+
 **what-if analysis**  
 usage: see how is the outcome affected by changing values of variables
 
