@@ -1,26 +1,3 @@
-secondary Storage of Devices:  
-
-* larger devices: hard disk  
-* smaller devices: flash memory/SSD  
-
-power consumption:  
-
-* flash memory/SSD < HDD (due to efficient startup)
-* more power CPU higher consumption
-* display unit
-  + LED < LCD
-  + higher resolution
-
-startup time:
-
-* mobile OS < desktop OS
-* flash memory/SSD < HDD
-* more peripherals longer startup  
-
-ergonomic typing:
-
-* position of eye/neck/hands
-
 SSL:
 
 * data encrypted
