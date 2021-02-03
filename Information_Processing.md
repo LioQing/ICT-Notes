@@ -632,3 +632,7 @@ examples:
 * Google Spreadsheet
 
 layout: table with rows and columns
+
+cells:
+* cell is the basic storage unit  
+* cell address consist of column letter and row number
