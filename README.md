@@ -20,7 +20,7 @@
 	- [Office Automation](Information_Processing.md#office-automation)
 		- [Word Processor](Information_Processing.md#word-processor)
 		- [SpreadSheet](Information_Processing.md#spreadsheet)
-		- [Database Management System](Information_Processing.md#database-management-system-(dbms))
+		- [Database Management System](Information_Processing.md#database-managerment-system-dbms)
 	- [Spreadsheet Formula Summary](Excel_Summary.md)
 
 - [Computer System Fundamentals](Computer%20System%20Fundamentals.md)
