@@ -636,25 +636,107 @@ layout: table with rows and columns
 cells:
 * cell is the basic storage unit  
 * cell address consist of column letter and row number
+	* relative cell address - e.g.: A8
+	* absolute cell address - e.g.: $A$8
 
+autofill:
+* copy and paste
+	* if no pattern is found, the source will be copy and pasted in the follow cells
+* extend series
+	* if pattern is found, the source's pattern will be extended in the following cells
 
-##Answering skills
+### Functions
+functions allow calculation, filtering, manipulation of values
+
+function list: https://github.com/LioQing/ICT-Notes/blob/master/Excel_Summary.md  
+
+### Data Analysis
+
+**pivot table**  
+usage: to summarize information of a large data set
+
+consist of 4 areas:  
+page | column
+--- | ---
+row | data
+
+* page area controls data scope
+* data area shows summarized results
+* row area shows a vertical list of items and subtotals of the columns
+* column area shows a horizontal list of items and subtotals of the columns
+
+pivot chart: graphical representation of pivot table
+
+**what-if analysis**  
+usage: see how is the outcome affected by changing values of variables
+
+* scenario manager
+	* record different sets of assumed values and produce a summary report
+* goal seek
+	* find out how change of values affects the outcome by testing the values
+
+### Database Managerment System (DBMS)
+database:  
+a collection of data related to a topic or purpose and is well organized to store and retrieve the information  
+
+**key field**
+def: a unique field for each record  
+usage: for identification of individual records  
+
+**input mask**  
+usage: control data input to prevent users from entering invalid data  
+
+### Database Objects
+database object | description
+--- | ---
+table | store data according to rows and columns
+form | user-friendly interface to manipulate and display the data in a table  
+report | to present data in a professional and easy-to-read layout  
+query | perform an action on a table 
+macro | to automate certain tasks
+module | contain data management logics
+
+### Structured Query Language (SQL) in DBMS
+construct | description | remarks
+--- | --- | ---
+`SELECT` | the fields to be identified | followed by field name(s)
+`FROM` | the table to be identified | followed by table name(s)
+`WHERE` | the conditions, criteria to be used to filter data | followed by condition with: `=, >, <, <>, >=, <=, IN(...), BETWEEN...AND..., IS NULL, AND, OR, NOT`
+`ORDER BY` | sort the data (in ascending or descending order) | followed by fiend name, optionally add `ASC` or nothing for ascending order, add `DESC` for descending order
+`GROUP BY` | group data into 1 result with corresponding elements | followed by field name, commonly used with aggregate functions in `SELECT`: `sum, count, max`
+
+### Answering skills
 
 ***encoding***
-* unicode vs big5: unicode supports both traditional and simplified chinese characters but big5 only has traditional chinese character.
+* unicode vs big5 vs guobiao
+	* unicode supports both traditional and simplified chinese characters 
+	* big5 only has traditional chinese character
+	* guobiao only has simplified chinese character
 
 ***when comparing presentation file video demonstration***
-* presentation file: simpler editing work, hard copies can be provided for reference
-* video: pace of presentation can be controll, more vivid and authentic with more visual effects
+* presentation file
+ 	* simpler editing work
+	* hard copies can be provided for reference
+	* preparation time shorter
+	* work flow controlled dynamically, interactive
+* video
+	* pace of presentation can be controlled
+	* more vivid and authentic with more visual effects
 
 ***why compressed***
 * audio wav(uncompressed): it contain much information of the original data for editing and extracting necessary information.
 
 ***can't use some format***
-* video: cant play avi format in computer: sender adopt some uncommon codec that the receiver hasnt installed for video player
+* cant play avi format in computer
+	* sender adopt some uncommon codec that the receiver hasnt installed for video player
 
 ***digitalisation***
-* benefits: more attractive with mutimedia elements, search topic with ease.
+* benefits
+	* more attractive with mutimedia elements
+	* read multiple documents with ease
+	* search topic with ease
 
 ***word processor***
-* spell checker: mistyped word can be found in dictionary e.g.: 'from', 'form'. word not in dictionary, like chinese surname, or others: 'Qing' or 'X Æ A-12 Musk'
+* spell checker
+	* mistyped word can be found in dictionary e.g.: 'from', 'form'
+	* word not in dictionary, like chinese surname, or others: 'Chan' or 'Æser'

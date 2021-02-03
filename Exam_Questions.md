@@ -53,24 +53,6 @@ copyright:
 * to use the item, copyright need to be granted by the owner
 * non-commercial use is not exempted
 
-digitization compared to paper documents:
-
-* more multimedia elements, attractive
-* read multiple documents with ease
-* search topics
-
-presentation with presentation files:
-
-* hard copies provided for reference
-* editing is simple
-* preparation time shorter
-* work flow controlled dynamically, interactive
-
-presentation with video:
-
-* vivid and authentic, more visual effect
-* pace of presentation can be controlled in advance
-
 DNS:
 
 * does not need to install locally, ISP provided it
