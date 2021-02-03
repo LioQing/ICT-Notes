@@ -818,3 +818,12 @@ A __collection of computers interconnected by a high-speed network__ to perform 
 * More cost effective than a single powerful computer
 * Scalable
 * Network requirement is considerably a problem with very high amount of computers in the network
+
+
+##Answering skills
+
+***when comparing pc***
+* Battery operating time: cpu/storage device/display unit consumes more electricity
+* startup time OS/storage device(flash memory) support a shorter startup time
+* suitable for typing: keep your eyes/neck in good ergonomic position
+
