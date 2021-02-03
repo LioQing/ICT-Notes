@@ -49,6 +49,9 @@ composed of LANs connected through routers over a **larger** geographical area -
 
 <br>
 
+**centralized data management**
+with all data centralized in one network server, all authorized users are able to share the *latest and identical* information all the time.
+
 ## Hardware
 
 **Network Interface Card (NIC)**  
