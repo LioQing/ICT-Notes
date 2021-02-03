@@ -704,3 +704,39 @@ construct | description | remarks
 `WHERE` | the conditions, criteria to be used to filter data | followed by condition with: `=, >, <, <>, >=, <=, IN(...), BETWEEN...AND..., IS NULL, AND, OR, NOT`
 `ORDER BY` | sort the data (in ascending or descending order) | followed by fiend name, optionally add `ASC` or nothing for ascending order, add `DESC` for descending order
 `GROUP BY` | group data into 1 result with corresponding elements | followed by field name, commonly used with aggregate functions in `SELECT`: `sum, count, max`
+
+### Answering skills
+
+***encoding***
+* unicode vs big5 vs guobiao
+	* unicode supports both traditional and simplified chinese characters 
+	* big5 only has traditional chinese character
+	* guobiao only has simplified chinese character
+
+***when comparing presentation file video demonstration***
+* presentation file
+ 	* simpler editing work
+	* hard copies can be provided for reference
+	* preparation time shorter
+	* work flow controlled dynamically, interactive
+* video
+	* pace of presentation can be controlled
+	* more vivid and authentic with more visual effects
+
+***why compressed***
+* audio wav(uncompressed): it contain much information of the original data for editing and extracting necessary information.
+
+***can't use some format***
+* cant play avi format in computer
+	* sender adopt some uncommon codec that the receiver hasnt installed for video player
+
+***digitalisation***
+* benefits
+	* more attractive with mutimedia elements
+	* read multiple documents with ease
+	* search topic with ease
+
+***word processor***
+* spell checker
+	* mistyped word can be found in dictionary e.g.: 'from', 'form'
+	* word not in dictionary, like chinese surname, or others: 'Chan' or 'Æser'
