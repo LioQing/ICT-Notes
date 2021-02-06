@@ -1,26 +1,3 @@
-secondary Storage of Devices:  
-
-* larger devices: hard disk  
-* smaller devices: flash memory/SSD  
-
-power consumption:  
-
-* flash memory/SSD < HDD (due to efficient startup)
-* more power CPU higher consumption
-* display unit
-  + LED < LCD
-  + higher resolution
-
-startup time:
-
-* mobile OS < desktop OS
-* flash memory/SSD < HDD
-* more peripherals longer startup  
-
-ergonomic typing:
-
-* position of eye/neck/hands
-
 SSL:
 
 * data encrypted
@@ -52,24 +29,6 @@ copyright:
 * creator owns its copyright
 * to use the item, copyright need to be granted by the owner
 * non-commercial use is not exempted
-
-digitization compared to paper documents:
-
-* more multimedia elements, attractive
-* read multiple documents with ease
-* search topics
-
-presentation with presentation files:
-
-* hard copies provided for reference
-* editing is simple
-* preparation time shorter
-* work flow controlled dynamically, interactive
-
-presentation with video:
-
-* vivid and authentic, more visual effect
-* pace of presentation can be controlled in advance
 
 DNS:
 
