@@ -818,3 +818,28 @@ A __collection of computers interconnected by a high-speed network__ to perform 
 * More cost effective than a single powerful computer
 * Scalable
 * Network requirement is considerably a problem with very high amount of computers in the network
+
+
+### Answering skills
+
+***when comparing computers***
+
+* secondary storage of devices
+	* larger devices: hard disk  
+	* smaller devices: flash memory/SSD  
+
+* power consumption
+	* flash memory/SSD < HDD (due to efficient startup)
+	* more power CPU higher consumption
+	* display unit
+	+ LED < LCD
+	+ higher resolution
+
+* startup time
+	* mobile OS < desktop OS
+	* flash memory/SSD < HDD
+	* more peripherals longer startup  
+
+* ergonomic typing:
+	* ergonimic position of eye/neck/hands
+

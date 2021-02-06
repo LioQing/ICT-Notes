@@ -49,6 +49,9 @@ composed of LANs connected through routers over a **larger** geographical area -
 
 <br>
 
+**centralized data management**
+with all data centralized in one network server, all authorized users are able to share the *latest and identical* information all the time.
+
 ## Hardware
 
 **Network Interface Card (NIC)**  
@@ -248,15 +251,15 @@ typical softwares:
 
 open system interconnection (OSI) mode:
 
-1. physical layer
-2. data link layer
-3. network layer
+1. Physical layer
+2. Data link layer (Frame)
+3. Network layer (Packet)
   + IP
-4. transport layer
+4. Transport layer (Datagram)
   + TCP, UDP
-5. session layer
-6. presentation layer
-7. application layer
+5. Session layer
+6. Presentation layer
+7. Application layer (Data)
   + FTP, HTTP
 
 **Transmission Control Protocol (TCP)**  
