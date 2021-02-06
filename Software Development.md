@@ -3,6 +3,7 @@
 ## Programming Languages Generations
 
 ### Generation 
+
 Name: X Generation Language = XGL (X is a number)  
 
 ### First Gen - Machine language  
@@ -19,6 +20,7 @@ Instructions are called __mnemonic__
 Code example:  
 
 ``` 
+
 ADD dest, src  
 ```
 
@@ -102,9 +104,9 @@ Examples:
 #### Objects and Classes
 
 Object consist of multiple type of data that define properties of an object  
-Consist of functions (methods) that define the behaviour of an object
+Consist of functions (methods) that define the behavior of an object
 
-Class is template for object, so that multiple objects of the same properties (attributes) and functions (behaviours) can be created and stored  
+Class is template for object, so that multiple objects of the same properties (attributes) and functions (behaviors) can be created and stored  
 
 Objects and Classes allows better __reusability__ of the codes in the program  
 Objects and Classes have the following 3 features:
@@ -199,7 +201,7 @@ table of comparison:
 |--------------------------------------------------|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Mode of translation                              | One statement a time                                    | One program a time                                                                                                                                          |
 | Mode of program execution                        | One translated statement at a time                      | Complete translated program                                                                                                                                 |
-| Presense of object code                          | No                                                      | Yes                                                                                                                                                         |
+| Presence of object code                          | No                                                      | Yes                                                                                                                                                         |
 | Independent program execution without translator | No                                                      | Yes                                                                                                                                                         |
 | Error detection                                  | Errors are returned during translation of the statement | Errors such as syntax errors are returned during compilation (compile-time error); other undetectable errors are returned during execution (run-time error) |
 
@@ -368,7 +370,7 @@ Evaluate and estimate the user attitude towards the development of the system.
 
 * **_Schedule feasibility_**  
 
-Whether the development can be completed within given time contraint.
+Whether the development can be completed within given time constraint.
 
 Formulate and evaluate alternative proposals  
 After feasibility study, several possible solutions may be proposed  

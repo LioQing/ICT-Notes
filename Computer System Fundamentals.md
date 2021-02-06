@@ -256,7 +256,7 @@ Bar Code Reader
 
 * Increase the accuracy and efficiency of data entry
 * Process is done instantly and accurately
-* Commonely used in libraries on all books
+* Commonly used in libraries on all books
 
 Optical Mark Reader
 
@@ -265,14 +265,14 @@ Optical Mark Reader
 
 ### Microphone
 
-Record sounds as eletrical signals to convert into sound
+Record sounds as electrical signals to convert into sound
 
 * Connected to sound card
 * Can be used with speech recognition software
 
-### Digital Camera and Digiti Video Camera (DC)
+### Digital Camera and Digital Video Camera (DC)
 
-Use light-sensitive processor to capture scense to turn them into digital images
+Use light-sensitive processor to capture scenes to turn them into digital images
 
 * Image quality depends on compression ratio, file format, resolution
 * Usually has a screen to make the scene immediately be viewable to the user
@@ -373,12 +373,12 @@ Also called backing storage
     - Average time taken to search and read the required data
     - Measured in millisecond (ms)
 * Data transfer rate
-    - The amound of data can be transferred between main memory and a storage device per second
+    - The amount of data can be transferred between main memory and a storage device per second
     - Measured in megabyte per second (MBps)
 
 ## Storage Capacity
 
-The maximimum amount of data can be stored in a storage medium  
+The maximum amount of data can be stored in a storage medium  
 Units in ascending order:  
 
 * Bit (1 B = 8 bits)  
@@ -819,27 +819,25 @@ A __collection of computers interconnected by a high-speed network__ to perform 
 * Scalable
 * Network requirement is considerably a problem with very high amount of computers in the network
 
-
 ### Answering skills
 
 ***when comparing computers***
 
 * secondary storage of devices
-	* larger devices: hard disk  
-	* smaller devices: flash memory/SSD  
+  + larger devices: hard disk  
+  + smaller devices: flash memory/SSD  
 
 * power consumption
-	* flash memory/SSD < HDD (due to efficient startup)
-	* more power CPU higher consumption
-	* display unit
-	+ LED < LCD
-	+ higher resolution
+  + flash memory/SSD < HDD (due to efficient startup)
+  + more power CPU higher consumption
+  + display unit
+  + LED < LCD
+  + higher resolution
 
 * startup time
-	* mobile OS < desktop OS
-	* flash memory/SSD < HDD
-	* more peripherals longer startup  
+  + mobile OS < desktop OS
+  + flash memory/SSD < HDD
+  + more peripherals longer startup  
 
 * ergonomic typing:
-	* ergonimic position of eye/neck/hands
-
+  + ergonomic position of eye/neck/hands
