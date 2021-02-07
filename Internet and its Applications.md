@@ -27,7 +27,7 @@ composed of LANs connected through routers over a **larger** geographical area -
     - encouraging community resource sharing and cooperation
   + disadvantages
     - Intellectual property law and illegal sharing
-    - Network neutrality - extra bandwith-usage
+    - Network neutrality - extra bandwidth-usage
 * **client-server connection** - all computers are connected to a server
   + examples
     - dedicated server games
@@ -91,7 +91,7 @@ has unique **Media Access Control (MAC)** address for identification
 * perform demodulation - convert analogue signals into digital signals
 * examples
   + dial-up modem
-  + cabble modem (cable TV)
+  + cable modem (cable TV)
   + Asymmetric Digital Subscriber Line (ADSL) modem
 
 **Wires**
@@ -134,7 +134,7 @@ has unique **Media Access Control (MAC)** address for identification
 
 ## Network Switching (extra)
 
-the process of **forwarding messages or informations** in networking
+the process of **forwarding messages or information** in networking
 
 Categories:
 
@@ -144,7 +144,7 @@ Categories:
 Types of switching:
 
 * **Circuit Switching**
-  + communicate over a **dedicated** communciation path 
+  + communicate over a **dedicated** communication path 
   + **remains connected** during the communication session
 * **Message Switching**
   + data is routed in its entirety
@@ -192,7 +192,7 @@ Types:
 ways to connect:  
 
 * dial-up access
-  + requires dial-up modem & telephone line to connect to Internt via ISP
+  + requires dial-up modem & telephone line to connect to Internet via ISP
 * Integrated Services Digital Network (ISDN)
   + requires a terminal adapter (TA) connected to a telephone line
 * leased line
@@ -206,7 +206,7 @@ ways to connect:
     - symmetric digital subscriber line (SDSL)
     - cable modem 
 * wireless Internet access
-  + by not using any wired connection, generally by microwave or radiowave connections
+  + by not using any wired connection, generally by microwave or radio wave connections
   + example:
     - Wi-Fi hot spots
     - mobile broadband
@@ -222,7 +222,7 @@ ways to connect:
 
 ## Communication Software and Protocols
 
-**communication software** is a software that provide fast and effective way for intert access or activity
+**communication software** is a software that provide fast and effective way for internet access or activity
 
 typical softwares:  
 
@@ -238,16 +238,16 @@ typical softwares:
 * file transfer program
   + to send files to other devices
 * telnet program
-  + to remotely control another deveice or server through CLI
+  + to remotely control another device or server through CLI
 * social networking software
-  + to share text/image/video on the Internt
+  + to share text/image/video on the Internet
   + for browsing text/image/video shared by others on the Internet
 * video conferencing software
   + to communicate through live video with others with the same software
 
 <br>
 
-**protocols** are a set of rules guiding communcation between computer systems through standardization
+**protocols** are a set of rules guiding communication between computer systems through standardization
 
 open system interconnection (OSI) mode:
 
@@ -267,7 +267,7 @@ responsible for:
 
 * division of messages into packets
 * transmission
-* verificaiton
+* verification
 * reassembling of packets
 
 **Internet Protocol (IP)**  
@@ -276,7 +276,7 @@ responsible for:
 * divide packets into fragments (smaller pieces) according to the transmission rate
 * routing the packets to destination
 
-**IP Addess**
+**IP Address**
 
 * for identifying the device with the network interface
 * all devices using IP will have an IP address
@@ -346,7 +346,7 @@ translates domain names into relevant IP addresses and vice versa, the process i
 ## Terms for Answering Questions
 
 * transmission rate - amount of data transfer per unit time
-* bandwith - maximum rate of data transfer across a path
+* bandwidth - maximum rate of data transfer across a path
 * coverage - the distance where the network can cover
 * latency - delay due to not enough transmission rate
 
@@ -362,13 +362,13 @@ types:
   + Google
   + Yahoo!
 * specialized searches
-  + Medlin Plus
+  + MedlinePlus
   + Bloomberg
   + Business.com
 * general searches using natural languages
   + Ask Jeeves!
 
-techiniques:
+techniques:
 
 * use precise keyword
 * use "+" in front of a word for finding the exact term
@@ -452,14 +452,21 @@ optional features:
 * BCC (Blind Carbon Copy) - destination e-mail addresses are not listed in the header
 * Signature - pice of text at the end of the message to identify the sender
 
-protocols:  
+protocols:
+<br>
+
+**Remarks:**
+**The protocol part have been removed from the syllabus since 2019** \
+**Details refer to this [document](http://334.edb.hkedcity.net/doc/chi/curriculum2015/ICT_CAGuide_e_2015.pdf) from EDB (Page 35 out of 146)**
+<br>
+
 **Simple Mail Transfer Protocol (SMTP)**  
 used for: 
 
 * from sender's PC to sender's mail server
 * from sender's mail server to receiver's mail server
 
-**Post Office Proticol (POP)**  
+**Post Office Protocol (POP)**  
 currently POP3 is the standard  
 
 used for:
@@ -505,12 +512,12 @@ feature:
 
 * for remote control of a computer through Internet
 * telnet was the first protocol for this purpose (CLI interface)
-* telnet was replaced by newer protocol, Secure Sheel (SSH)
+* telnet was replaced by newer protocol, Secure Shell (SSH)
 
 ***Newsgroup***  
 feature:
 
-* threaded disuccion/categorized
+* threaded discussion/categorized
 * newsreader program/web browser for reading, posting, browsing messages
 * largely replaced by forums and blogs now
 
@@ -518,11 +525,11 @@ feature:
 feature:  
 
 * consists of subforums, which may have several different topics
-* informations kept on specific servers by the owner
+* information kept on specific servers by the owner
 * user authentication
 
 ***Online Chat***  
-refers to one-to-one or one-to-many dicussion over Internet
+refers to one-to-one or one-to-many discussion over Internet
 
 feature:
 

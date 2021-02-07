@@ -1,8 +1,26 @@
 # Software Development
+## Compulsory
 
+### Pseudo Code
+> Note: To shorten the code, `{V}`, `s` and `e` has been used to represent `{VARIABLE}`, `start` and `end` respectively
+
+| Operators / Keyword                           | C/C++                                          | Pascal                                        | Python                         | Description                 |
+|-----------------------------------------------|------------------------------------------------|-----------------------------------------------|--------------------------------|-----------------------------|
+| `<-`                                          | `=`                                            | `:=`                                          | `=`                            | Assign value to a variable  |
+| `INPUT {V}`                                   | `scanf(%{V_TYPE}, {V})`                        | `read({V})`                                   | `{V} = input()`                | Get input value to variable |
+| `OUTPUT {V}`                                  | `printf("%{V_TYPE}", {V})`                     | `write({V})`                                  | `print({V})`                   | Output variable value       |
+| `FOR {V} FROM s TO e DO`                      | `for(int {V} = s; s <= e; s++)`                | `for {V} := s to e do`                        | `for {v} in range (s, e + 1):` | For loop                    |
+| `WHILE {CONDITION} DO`                        | `while {CONDITION}`                            | `while {CONDITION} do`                        | `while {CONDITION}:`           | While loop                  |
+| <pre>REPEAT<br>...<br>UNTIL {CONDITION}</pre> | <pre>do{<br>    ...<br>}while{CONDITION}</pre> | <pre>REPEAT<br>...<br>UNTIL {CONDITION}</pre> | **DOES NOT EXISTS**            | Repeat loop (do while loop) |
+| `IF {CONDITION} THEN`                         | `if ({CONDITION}){...}`                        | `if {CONDITION} then`                         | `if {CONDITION}:`              | If case                     |
+
+## Elective D
+
+> All the content below is related to elective D module
 ## Programming Languages Generations
 
 ### Generation 
+
 Name: X Generation Language = XGL (X is a number)  
 
 ### First Gen - Machine language  
@@ -102,9 +120,9 @@ Examples:
 #### Objects and Classes
 
 Object consist of multiple type of data that define properties of an object  
-Consist of functions (methods) that define the behaviour of an object
+Consist of functions (methods) that define the behavior of an object
 
-Class is template for object, so that multiple objects of the same properties (attributes) and functions (behaviours) can be created and stored  
+Class is template for object, so that multiple objects of the same properties (attributes) and functions (behaviors) can be created and stored  
 
 Objects and Classes allows better __reusability__ of the codes in the program  
 Objects and Classes have the following 3 features:
@@ -199,7 +217,7 @@ table of comparison:
 |--------------------------------------------------|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Mode of translation                              | One statement a time                                    | One program a time                                                                                                                                          |
 | Mode of program execution                        | One translated statement at a time                      | Complete translated program                                                                                                                                 |
-| Presense of object code                          | No                                                      | Yes                                                                                                                                                         |
+| Presence of object code                          | No                                                      | Yes                                                                                                                                                         |
 | Independent program execution without translator | No                                                      | Yes                                                                                                                                                         |
 | Error detection                                  | Errors are returned during translation of the statement | Errors such as syntax errors are returned during compilation (compile-time error); other undetectable errors are returned during execution (run-time error) |
 
@@ -368,7 +386,7 @@ Evaluate and estimate the user attitude towards the development of the system.
 
 * **_Schedule feasibility_**  
 
-Whether the development can be completed within given time contraint.
+Whether the development can be completed within given time constraint.
 
 Formulate and evaluate alternative proposals  
 After feasibility study, several possible solutions may be proposed  
