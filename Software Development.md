@@ -1,5 +1,22 @@
 # Software Development
+## Compulsory
 
+### Pseudo Code
+> Note: To shorten the code, `{V}`, `s` and `e` has been used to represent `{VARIABLE}`, `start` and `end` respectively
+
+| Operators / Keyword                           | C/C++                                          | Pascal                                        | Python                         | Description                 |
+|-----------------------------------------------|------------------------------------------------|-----------------------------------------------|--------------------------------|-----------------------------|
+| `<-`                                          | `=`                                            | `:=`                                          | `=`                            | Assign value to a variable  |
+| `INPUT {V}`                                   | `scanf(%{V_TYPE}, {V})`                        | `read({V})`                                   | `{V} = input()`                | Get input value to variable |
+| `OUTPUT {V}`                                  | `printf("%{V_TYPE}", {V})`                     | `write({V})`                                  | `print({V})`                   | Output variable value       |
+| `FOR {V} FROM s TO e DO`                      | `for(int {V} = s; s <= e; s++)`                | `for {V} := s to e do`                        | `for {v} in range (s, e + 1):` | For loop                    |
+| `WHILE {CONDITION} DO`                        | `while {CONDITION}`                            | `while {CONDITION} do`                        | `while {CONDITION}:`           | While loop                  |
+| <pre>REPEAT<br>...<br>UNTIL {CONDITION}</pre> | <pre>do{<br>    ...<br>}while{CONDITION}</pre> | <pre>REPEAT<br>...<br>UNTIL {CONDITION}</pre> | **DOES NOT EXISTS**            | Repeat loop (do while loop) |
+| `IF {CONDITION} THEN`                         | `if ({CONDITION}){...}`                        | `if {CONDITION} then`                         | `if {CONDITION}:`              | If case                     |
+
+## Elective D
+
+> All the content below is related to elective D module
 ## Programming Languages Generations
 
 ### Generation 
@@ -20,7 +37,6 @@ Instructions are called __mnemonic__
 Code example:  
 
 ``` 
-
 ADD dest, src  
 ```
 
