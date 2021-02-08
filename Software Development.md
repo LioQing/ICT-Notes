@@ -2,6 +2,7 @@
 ## Compulsory
 
 ### Pseudo Code
+
 > Note: To shorten the code, `{V}`, `s` and `e` has been used to represent `{VARIABLE}`, `start` and `end` respectively
 
 | Operators / Keyword                           | C/C++                                          | Pascal                                        | Python                         | Description                 |
@@ -14,9 +15,21 @@
 | <pre>REPEAT<br>...<br>UNTIL {CONDITION}</pre> | <pre>do{<br>    ...<br>}while{CONDITION}</pre> | <pre>REPEAT<br>...<br>UNTIL {CONDITION}</pre> | **DOES NOT EXISTS**            | Repeat loop (do while loop) |
 | `IF {CONDITION} THEN`                         | `if ({CONDITION}){...}`                        | `if {CONDITION} then`                         | `if {CONDITION}:`              | If case                     |
 
+### Flowchart
+
+| Symbol                                                         | Name               | Description                                                                                   |
+|----------------------------------------------------------------|--------------------|-----------------------------------------------------------------------------------------------|
+| ![arrow](assets/flowchart/arrow.png)                           | Flow Line          | Indicates the direction of process flow                                                       |
+| ![oval](assets/flowchart/oval.png)                             | Terminal           | Indicates the beginning and ending of a program or sub-process.                               |
+| ![rectangle](assets/flowchart/rectangle.png)                   | Process            | Indicates the process of changing a variable's value, excluding input the value to a variable |
+| ![parallelogram](assets/flowchart/parallelogram.png)           | Input/Output       | Indicates the input/output process                                                            |
+| ![rhombus](assets/flowchart/rhombus.png)                       | Decision           | Indicates a decision, decision block is used when preforming a **loop** or a **if case**      |
+| ![predefined process](assets/flowchart/predefined_process.png) | Predefined Process | Indicates name of a process which is defined elsewhere, you may think it as a subprogram      |
+
 ## Elective D
 
 > All the content below is related to elective D module
+
 ## Programming Languages Generations
 
 ### Generation 
