@@ -121,7 +121,8 @@
 Under the same spreadsheet document, all the cells are transferable between different sheets. Here is and example of a spreadsheet with 2 sheets\
 ![Example](assets/Excel/Example_of_2_sheet.JPG)\
 The formula to connect 2 different sheets is `{Sheet_Name}!`. It may a bit confusing by looking at the formula so look at the example below
-> Note: the follow example can be find in `assets/Excel/Example.xlsx`\
+> Note: the follow example can be find in `assets/Excel/Example.xlsx`
+
 Here are some values in the cells of `Sheet1`\
 ![Sheet1](assets/Excel/Sheet1.JPG)\
 Our mission is to sum up all the values in `Sheet1` in the cell `B1` of `Sheet2`\
