@@ -1,6 +1,7 @@
 # Spreadsheet (Excel) Formula Summary Table
 
 ## Content
+
 * [Operators](#Operators)
     - [Arithmetic Operator](#Arithmetic-Operator)
     - [Comparison Operator](#Comparison-Operator)
@@ -11,6 +12,7 @@
     - [Logical Functions](#Logical-Functions)
     - [Text, Date and Time Functions](#Text,-Date-and-Time-Functions)
     - [Lookup and Reference Functions](#Lookup-and-Reference-Functions)
+* [Syntax between different sheets](#Syntax-between-different-sheets)
 
 ## Operators
 
@@ -72,7 +74,7 @@
 | MOD      | Finds the remainder (mod) of the division between number *n* and dividend *p*.                                               | `=MOD(n,p)`                                   | **Not Given in HKDSE**<br> =MOD(9, 2) = 1                                                                                                                                                                                                                              |
 | POWER    | Returns the value of the base *n* to the power *p*.                                                                          | `=POWER(N,P)`                                 | **Not Given in HKDSE**<br> =POWER(3, 2) = 9                                                                                                                                                                                                                            |
 | RAND     | Generates a random decimal within the range 0<=x<1.                                                                          | `=RAND()`                                     | To scale the number to between 0 to *x*, use = x * RAND().<br> To scale the number to between *y* and *z*, use = (z - y) * RAND() + y                                                                                                                                  |
-| RANK     | Returns the rank of a number in a list of numbers.                                                                           | `RANK(Number,Range,[Order])`                  | Order is Optional  (i.e.,0 for descending order and 1 for ascending order)                                                                                                                                                                                             |
+| RANK     | Returns the rank of a number in a list of numbers.                                                                           | `RANK(Number,Range,[Order])`                  | Order is Optional  (i.e., 0 for descending order and 1 for ascending order)                                                                                                                                                                                            |
 | ROUND    | The ROUND function rounds a number to a specified number of digits.                                                          | `=ROUND(Number, Num_digits)`                  | If Num_digits is greater than 0 , then Number is rounded to the specified (Num_digit) decimal places. <br> If num_digits is 0, the number is rounded to the nearest integer. <br>If num_digits is less than 0, the number is rounded to the left of the decimal point. |
 
 ### Logical Functions
@@ -96,7 +98,7 @@
 | LEFT        | Returns the leftmost *n* characters in the string provided.                                                         | `=LEFT(String,n)`                       | =LEFT("I IS MR WONG", 3) = "I I"                                                                           |
 | MID         | Returns a *n* characters from the string given, starting from the *p*th character.                                  | `=MID(String,n,p)`                      | =MID("I IS MR WONG", 3, 4) = "IS M"                                                                        |
 | RIGHT       | Returns the rightmost *n* characters in the string provided.                                                        | `=RIGHT(String,n)`                      | =RIGHT("I IS MR WONG", 3) = "ONG"                                                                          |
-| TEXT        | Returns the textual representation of the number given.                                                             | `=TEXT(Number)`                         | =TEXT(133)= "133" <br> (can also work wth dates, e.g. =TEXT(12-6-2017,"dd-mmmm-yyyy") =12-June-2017)       |
+| TEXT        | Returns the textual representation of the number given.                                                             | `=TEXT(Number)`                         | =TEXT(133)= "133" <br> (can also work wth dates, e.g. =TEXT(12-6-2017, "dd-mmmm-yyyy") =12-June-2017)      |
 | TRIM        | Removes all spaces from text except for single spaces between words.                                                | `=TRIM(String)`                         | NULL                                                                                                       |
 | UPPER       | Converts text to uppercase.                                                                                         | `=UPPER(String)`                        | NULL                                                                                                       |
 | LOWER       | Converts all uppercase letters in a text string to lowercase.                                                       | `=LOWER(String)`                        | NULL                                                                                                       |
@@ -114,3 +116,18 @@
 |----------|-------------------------------------------|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | HLOOKUP  | Looks up data according to a given value. | `=HLOOKUP(n, Range, p, Approximate)` | **Not Given in HKDSE**<br> Horizontally looks for the value *n* in the first row of the range given.<br> If *Approximate* is true, a comparison is used to find the most matching data.<br> Otherwise, only equal results will count as a success.<br> When the value is found, looks *p* cells down for the value to return. |
 | VLOOKUP  | Looks up data according to a given value. | `=VLOOKUP(n, Range, p, Approximate)` | Vertically looks for the value *n* in the first row of the range given.<br> If *Approximate* is true, a comparison is used to find the most matching data.<br> Otherwise, only equal results will count as a success.<br> When the value is found, looks *p* cells to the right for the value to return.                      |
+
+## Syntax between different sheets
+Under the same spreadsheet document, all the cells are transferable between different sheets. Here is and example of a spreadsheet with 2 sheets\
+![Example](assets/Excel/Example_of_2_sheet.JPG)\
+The formula to connect 2 different sheets is `{Sheet_Name}!`. It may a bit confusing by looking at the formula so look at the example below
+> Note: the follow example can be find in `assets/Excel/Example.xlsx`\
+Here are some values in the cells of `Sheet1`\
+![Sheet1](assets/Excel/Sheet1.JPG)\
+Our mission is to sum up all the values in `Sheet1` in the cell `B1` of `Sheet2`\
+![Sheet2](assets/Excel/Sheet2.JPG)\
+To sum Sheet1, we will use `=SUM(Sheet1!A1:G14)` in this case.\
+![Sum up](assets/Excel/Sumup_sheet1.JPG)\
+**Note: In this example the name the sheet is `Sheet1`, remember to change to the correct sheet name it give to you in exam**\
+For example in 2013 DSE Paper 1 Question 7, it given 2 sheet named `WA1` and `WA2`\
+![2013Dse](assets/Excel/2013_P1_Q7.JPG)
