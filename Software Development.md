@@ -96,6 +96,9 @@ Language classification by pattern/model
 ### Procedural/Imperative  
 
 Focus on ‘how’ the goal should be reached  
+By using control statements to direct flows to change state (data) of the program  
+Usually for general-purpose
+
 Examples:  
 
 * C  
@@ -104,7 +107,8 @@ Examples:
 
 ### Declarative  
 
-Focus on ‘what’ the goal is
+Focus on ‘what’ the goal is  
+Commonly used for domain-specific purposes
 
 #### Logic Programming Language:  
 

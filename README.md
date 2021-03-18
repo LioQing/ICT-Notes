@@ -42,3 +42,5 @@
   + [Internet Services and Applications](Internet%20and%20its%20Applications.md#internet-services-and-applications)
   + [Introduction to HTML](Internet%20and%20its%20Applications.md#html)
   + [Elementary Web Authoring](Internet%20and%20its%20Applications.md#elementary-web-authoring)
+
+* [Social Implications](Social%20Implications.md)
