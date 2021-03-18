@@ -173,6 +173,18 @@ Same class can have different forms in the form of subclass
 * Portability
 * Program development time
 
+following are from 2017 2D section:
+* Scale and modularity
+* Reusability
+* Portability
+* Execution efficiency
+* Functional strength
+* Readability
+* Utility libraries and development tools
+* End-user interaction
+* Familiarity
+* Cost
+
 _Revision with examples is better!_  
 _Use the following **besttest** examples from the almighty Comp Soc!_  
 _https://github.com/spc-comp-soc/spc-cs-db_
