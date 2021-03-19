@@ -1,6 +1,18 @@
 # Software Development
 ## Compulsory
 
+### Logical Operations
+
+Transformation of logical expressions:  
+not (A and B) -> not A or not B  
+not (A or B) -> not A and not B  
+not (not A) -> A  
+
+example: 
+not (A and (B or C)) -> not A or not (B or C) -> not A or not B and not C  
+not (A or (B and C)) -> not A and not (B and C) -> not A and (not B or not C)  
+not (A and B and C) -> not A or not B or not C  
+
 ### Pseudo Code
 
 > Note: To shorten the code, `{V}`, `s` and `e` has been used to represent `{VARIABLE}`, `start` and `end` respectively

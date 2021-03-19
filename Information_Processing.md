@@ -768,3 +768,12 @@ usage: control data input to prevent users from entering invalid data
 * spell checker
   + mistyped word can be found in dictionary e.g.: 'from', 'form'
   + word not in dictionary, like chinese surname, or others: 'Chan' or 'Æser'
+
+***compression of different file format***  
+
+* plain file formats are easier to be compressed by file archivers (zip)
+    + .bmp
+    + .txt
+* compressed file formats are harder to be compressed by file archivers (zip)
+    + .jpg
+    + .mp3
