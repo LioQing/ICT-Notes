@@ -2,19 +2,21 @@
 
 ## Content
 
-* [Notice](#Notice)
-* [Operators](#Operators)
-    - [Arithmetic Operator](#Arithmetic-Operator)
-    - [Bitwise Operators](#Bitwise-Operators)
-    - [Comparison Operators](#Comparison-Operators)
-    - [Logic Operators](#Logic-Operators)
-    - [Wildcards](#Wildcards)
-        + [LIKE](#LIKE)
-* [Functions](#Functions)
-    - [Aggregate Function ](#Aggregate-Function)
-    - [Arithmetic Function](#Arithmetic-Function)
-    - [String Function](#String-Function)
-* [Keyword](#Keyword)
+- [SQL Summary](#sql-summary)
+  - [Content](#content)
+  - [Notice](#notice)
+  - [Operators](#operators)
+    - [Arithmetic Operator](#arithmetic-operator)
+    - [Bitwise Operators](#bitwise-operators)
+    - [Comparison Operators](#comparison-operators)
+    - [Logic Operators](#logic-operators)
+    - [Wildcards](#wildcards)
+      - [LIKE](#like)
+  - [Functions](#functions)
+    - [Aggregate Function](#aggregate-function)
+    - [Arithmetic Function](#arithmetic-function)
+    - [String Function](#string-function)
+  - [Keyword](#keyword)
 
 ## Notice 
 
