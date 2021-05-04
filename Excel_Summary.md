@@ -71,13 +71,12 @@
 | SQRT     | Returns a positive square root.                                                                                              | `=SQRT(Number)` | If number is negative, SQRT returns the #NUM! error value.                                                                                                                                                                                                             |
 | SUM      | Finds the sum of the numeric data in the range given.                                                                        | `=SUM(Range)` | NULL                                                                                                                                                                                                                                                                   |
 | SUMIF    | Finds the sum of the values within the *sum range* if the corresponding entries in the *cell range* fit the condition given. | `=SUMIF(Range (Cell),Condition, Range (Sum))` | The formula looks up each cell in the *cell range* consecutively, then applies *condition* to it. <br>If *condition* return true, the corresponding value in the *sum range* is added to the current total. <br>The total is then the result of the formula.           |
-| ROUND    | Rounds the value *n* to the specified number *p* of decimal places.                                                          | `=ROUND(n,p)` | NULL                                                                                                                                                                                                                                                                   |
+| ROUND    | Rounds the value *Number* to the specified number *Num_digits* of decimal places.                                                          | `=ROUND(Number,Num_digits)` | If Num_digits is greater than 0 , then Number is rounded to the specified (Num_digit) decimal places. <br> If num_digits is 0, the number is rounded to the nearest integer. <br>If num_digits is less than 0, the number is rounded to the left of the decimal point.                                                                                                                                                                                                                                                                   |
 | INT      | Rounds down (casts) the value given to an integer.                                                                           | `=INT(Number)` | NULL                                                                                                                                                                                                                                                                   |
 | MOD      | Finds the remainder (mod) of the division between number *n* and dividend *p*.                                               | `=MOD(n,p)` | **Not Given in HKDSE**<br> =MOD(9, 2) = 1                                                                                                                                                                                                                              |
 | POWER    | Returns the value of the base *n* to the power *p*.                                                                          | `=POWER(N,P)` | **Not Given in HKDSE**<br> =POWER(3, 2) = 9                                                                                                                                                                                                                            |
 | RAND     | Generates a random decimal within the range 0<=x<1.                                                                          | `=RAND()` | To scale the number to between 0 to *x*, use = x * RAND().<br> To scale the number to between *y* and *z*, use = (z - y) * RAND() + y                                                                                                                                  |
-| RANK     | Returns the rank of a number in a list of numbers.                                                                           | `RANK(Number,Range,[Order])` | Order is Optional  (i.e., 0 for descending order and 1 for ascending order)                                                                                                                                                                                            |
-| ROUND    | The ROUND function rounds a number to a specified number of digits.                                                          | `=ROUND(Number, Num_digits)` | If Num_digits is greater than 0 , then Number is rounded to the specified (Num_digit) decimal places. <br> If num_digits is 0, the number is rounded to the nearest integer. <br>If num_digits is less than 0, the number is rounded to the left of the decimal point. |
+| RANK     | Returns the rank of a number in a list of numbers.                                                                           | `RANK(Number,Range,[Order])` | Order is Optional  (i.e., 0 for descending order and 1 for ascending order)                                                                                                           
 
 ### Logical Functions
 
@@ -123,7 +122,7 @@
 
 Under the same spreadsheet document, all the cells are transferable between different sheets. Here is and example of a spreadsheet with 2 sheets\
 
-![Example](assets/Excel/Example_of_2_sheet. JPG)
+![Example](assets/Excel/Example_of_2_sheet.JPG)
 
 \
 The formula to connect 2 different sheets is `{Sheet_Name}!` . It may a bit confusing by looking at the formula so look at the example below
@@ -132,20 +131,20 @@ The formula to connect 2 different sheets is `{Sheet_Name}!` . It may a bit conf
 
 Here are some values in the cells of `Sheet1` \
 
-![Sheet1](assets/Excel/Sheet1. JPG)
+![Sheet1](assets/Excel/Sheet1.JPG)
 
 \
 Our mission is to sum up all the values in `Sheet1` in the cell `B1` of `Sheet2` \
 
-![Sheet2](assets/Excel/Sheet2. JPG)
+![Sheet2](assets/Excel/Sheet2.JPG)
 
 \
 To sum Sheet1, we will use `=SUM(Sheet1!A1:G14)` in this case.\
 
-![Sum up](assets/Excel/Sumup_sheet1. JPG)
+![Sum up](assets/Excel/Sumup_sheet1.JPG)
 
 \
 **Note: In this example the name the sheet is `Sheet1` , remember to change to the correct sheet name it give to you in exam**\
 For example in 2013 DSE Paper 1 Question 7, it given 2 sheet named `WA1` and `WA2` \
 
-![2013Dse](assets/Excel/2013_P1_Q7. JPG)
+![2013Dse](assets/Excel/2013_P1_Q7.JPG)
