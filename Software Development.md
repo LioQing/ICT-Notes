@@ -24,7 +24,7 @@ not (A and B and C) -> not A or not B or not C
 | `OUTPUT {V}`                                  | `printf("%{V_TYPE}", {V})`                     | `write({V})`                                  | `print({V})`                   | Output variable value       |
 | `FOR {V} FROM s TO e DO`                      | `for(int {V} = s; s <= e; s++)`                | `for {V} := s to e do`                        | `for {v} in range (s, e + 1):` | For loop                    |
 | `WHILE {CONDITION} DO`                        | `while {CONDITION}`                            | `while {CONDITION} do`                        | `while {CONDITION}:`           | While loop                  |
-| <pre>REPEAT<br>...<br>UNTIL {CONDITION}</pre> | <pre>do{<br>    ...<br>}while{CONDITION}</pre> | <pre>REPEAT<br>...<br>UNTIL {CONDITION}</pre> | **DOES NOT EXISTS**            | Repeat loop (do while loop) |
+| <pre>REPEAT<br>...<br>UNTIL {CONDITION}</pre> | <pre>do{<br>    ...<br>}while(!{CONDITION})</pre> | <pre>REPEAT<br>...<br>UNTIL {CONDITION}</pre> | **DOES NOT EXISTS**            | Repeat until loop |
 | `IF {CONDITION} THEN`                         | `if ({CONDITION}){...}`                        | `if {CONDITION} then`                         | `if {CONDITION}:`              | If case                     |
 
 ### Flowchart
