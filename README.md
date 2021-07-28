@@ -1,5 +1,7 @@
 # DSE ICT Notes
 
+Content is not guaranteed to be 100% correct, anyone is welcome to make pull request/open issue to help fixing mistakes and adding content to this repo.
+
 ## Content of README
 
 - [DSE ICT Notes](#dse-ict-notes)
